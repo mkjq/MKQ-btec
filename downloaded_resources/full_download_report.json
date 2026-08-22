@@ -1,0 +1,2687 @@
+{
+  "startedAt": "2026-08-22T22:03:20.368Z",
+  "total": 535,
+  "downloaded": 507,
+  "skippedFolder": 19,
+  "failed": 9,
+  "failures": [
+    {
+      "name": "قالب حل + شرح مهمة مقدمة للرسومات الرقمية والرسوم المتحركة (أ)",
+      "url": "https://drive.google.com/drive/folders/1OWoGqMoI-8ODuawBW8ErfVBn7BUgoaIb",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "قالب حل + شرح مهمة مقدمة للرسومات الرقمية والرسوم المتحركة (ب + ج)",
+      "url": "https://drive.google.com/drive/folders/1VXxJLlzpINzdNlR2pfRr02bEybPT-oAW",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "قالب حل + شرح مهمة تطوير تطبيقات الهاتف المحمول (أ)",
+      "url": "https://drive.google.com/file/d/1hvzQrLBxVIZokqCZ2HVBNRIlXqHoqiG6/view?usp=sharing",
+      "reason": "HTTP status 404"
+    },
+    {
+      "name": "قالب حل + شرح مهمة تطوير تطبيقات الهاتف المحمول (ب + ج)",
+      "url": "https://drive.google.com/drive/folders/1-UJOOsFHIPfQoqeuIXSPQ0JacNNIT6Ud",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "جميع المساعدات لمهمة الدعم الفني وإدارة تكنولوجيا المعلومات هدف (ب)",
+      "url": "https://drive.google.com/drive/folders/1cCV0YHFjti6LN5VAsokacbSEWVUyrJHc?usp=drive_link",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "جميع المساعدات لمهمة الأمن السيبراني وإدارة الحوادث (أ + ب + ج + د)",
+      "url": "https://drive.google.com/drive/folders/1veRGidpd_BhVDzL1wEJuB2-vGFKle_Hg?usp=sharing",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "جميع المساعدات لمهمة مقدمة إلى الذكاء االصطناعي AI (أ)",
+      "url": "https://drive.google.com/drive/folders/1QMejjbUQUMTCTvmke2DS-o0LR8HppbhP?usp=drive_link",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "جميع المساعدات لمهمة مقدمة إلى الذكاء االصطناعي AI هدف (ب + ج)",
+      "url": "https://drive.google.com/drive/folders/1C6pM_VEYllvg793ADdXb1HuCWg1udYFV",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "مهمة تخطيط وإدارة فعالية الضيافة",
+      "url": "https://docs.google.com/document/d/1hx09T1QGbDaa_255B-ZPSFU8_4BJR5cN/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true",
+      "reason": "HTTP status 502"
+    },
+    {
+      "name": "resource_403",
+      "url": "https://drive.google.com/file/d/1N7fzE_36yJhNKib8zMxuhgDRnTFph_PW/view",
+      "reason": "read ECONNRESET"
+    },
+    {
+      "name": "resource_404",
+      "url": "https://drive.google.com/file/d/1aEPyTIF-rpilxoC4GFdWfRtai3mYe8UR/view",
+      "reason": "Request timed out"
+    },
+    {
+      "name": "resource_405",
+      "url": "https://drive.google.com/file/d/1T6Z5gPi93_CnwNPft3Q7SR_PnqjneaxZ/view",
+      "reason": "Request timed out"
+    },
+    {
+      "name": "resource_406",
+      "url": "https://docs.google.com/presentation/d/1NqdzkSvqqOF8YYLCEuMkR4TNfjSg24MJ/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true",
+      "reason": "Request timed out"
+    },
+    {
+      "name": "resource_579",
+      "url": "https://docs.google.com/document/d/${fileId}/export?format=docx",
+      "reason": "Unsupported URL format"
+    },
+    {
+      "name": "resource_580",
+      "url": "https://docs.google.com/presentation/d/${fileId}/export/pptx",
+      "reason": "Unsupported URL format"
+    },
+    {
+      "name": "resource_581",
+      "url": "https://drive.google.com/uc?export=download&id=${fileId}",
+      "reason": "Unsupported URL format"
+    },
+    {
+      "name": "resource_582",
+      "url": "https://drive.google.com/drive/folders/1Wwfk8dnTClfGQerq9mQvoCqoou_seLy8?usp=sharing",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "resource_583",
+      "url": "https://drive.google.com/drive/folders/1bg4ElSdEjxvEz0NNDdP6TlrUTbHZM_Eg?usp=sharing",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "resource_584",
+      "url": "https://drive.google.com/drive/folders/1LkDrvFzN5zB8ZmzgSHeeEVpBBLAWIniw?usp=sharing",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "resource_585",
+      "url": "https://drive.google.com/drive/folders/1FeirwMpzIKXf0yFfpXOZ50gJa-QmmKdJ?usp=drive_link",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "resource_586",
+      "url": "https://drive.google.com/drive/folders/18mcZMXKw8cUSG6dilOfvf69FVdy-2u5Z?usp=sharing",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "resource_587",
+      "url": "https://drive.google.com/drive/folders/1NYzcPYvpfo1m9sNndKiibY-YchJESsL5?usp=sharing",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "resource_588",
+      "url": "https://drive.google.com/drive/folders/1gEeKRwmfK9CKE_vkcDafMO4uY2VWevq8?usp=sharing",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "resource_589",
+      "url": "https://drive.google.com/drive/folders/1Fm_xo8p88GtJLUhybh1LSiJ1_AE4S5Xu?usp=sharing",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "resource_590",
+      "url": "https://drive.google.com/drive/folders/1tS0yfPwhdZEiEBq6WeBtRL7KgISrV-4b?usp=sharing",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "resource_591",
+      "url": "https://drive.google.com/drive/folders/1XDtto-AiZZaPxvJLU4mjrEnYCiifNaxy?usp=sharing",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "resource_592",
+      "url": "https://drive.google.com/drive/folders/1uXNRVvCd7mg-Jx8jVMt_WNqj_kQOiZ-J?usp=sharing",
+      "reason": "Google Drive Folder"
+    },
+    {
+      "name": "resource_593",
+      "url": "https://drive.google.com/drive/folders/1cwsRHnmYbg3Fcq-P409Ewhd6xV5EsLKV?usp=sharing",
+      "reason": "Google Drive Folder"
+    }
+  ],
+  "successes": [
+    {
+      "name": "كتاب استخدام تكنولوجيا المعلومات لدعم المعلومات في المنظمات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب استخدام تكنولوجيا المعلومات لدعم المعلومات في المنظمات.pdf",
+      "size": 11973717
+    },
+    {
+      "name": "كتاب نمذجة البيانات وجداول البيانات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب نمذجة البيانات وجداول البيانات.pdf",
+      "size": 7219138
+    },
+    {
+      "name": "جدول المواصفات استخدام تكنولوجيا المعلومات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات استخدام تكنولوجيا المعلومات.pdf",
+      "size": 230125
+    },
+    {
+      "name": "جدول مواصفات نمذجة البيانات وجداول البيانات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول مواصفات نمذجة البيانات وجداول البيانات.pdf",
+      "size": 200747
+    },
+    {
+      "name": "طريقة عمل قاعدة بيانات SQL",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة عمل قاعدة بيانات SQL.pptx",
+      "size": 2904192
+    },
+    {
+      "name": "قالب حل + شرح مهمة استخدام تكنولوجيا المعلومات (أ + ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\قالب حل + شرح مهمة استخدام تكنولوجيا المعلومات (أ + ب + ج).pdf",
+      "size": 4684994
+    },
+    {
+      "name": "قالب حل + شرح مهمة نمذجة البيانات وجداول البيانات (أ + ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\قالب حل + شرح مهمة نمذجة البيانات وجداول البيانات (أ + ب + ج).pdf",
+      "size": 4456655
+    },
+    {
+      "name": "دليل المعلم استخدام تكنولوجيا المعلومات لدعم المعلومات في المنظمات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم استخدام تكنولوجيا المعلومات لدعم المعلومات في المنظمات.pdf",
+      "size": 143303
+    },
+    {
+      "name": "دليل المعلم نمذجة البيانات وجداول البيانات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم نمذجة البيانات وجداول البيانات.pdf",
+      "size": 391258
+    },
+    {
+      "name": "طريقة حل مهمة قواعد البيانات SQL",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة قواعد البيانات SQL.docx",
+      "size": 89859
+    },
+    {
+      "name": "مهمة استخدام تكنولوجيا المعلومات لدعم المعلومات في المنظمات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة استخدام تكنولوجيا المعلومات لدعم المعلومات في المنظمات.pdf",
+      "size": 336312
+    },
+    {
+      "name": "مهمة نمذجة البيانات وجداول البيانات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة نمذجة البيانات وجداول البيانات.pdf",
+      "size": 346349
+    },
+    {
+      "name": "كتاب مقدمة إلى شبكات الكمبيوتر",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مقدمة إلى شبكات الكمبيوتر.pdf",
+      "size": 26103788
+    },
+    {
+      "name": "كتاب مقدمة في البرمجة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مقدمة في البرمجة.pdf",
+      "size": 35111854
+    },
+    {
+      "name": "كتاب مقدمة للرسومات الرقمية والرسوم المتحركة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مقدمة للرسومات الرقمية والرسوم المتحركة.pdf",
+      "size": 16761100
+    },
+    {
+      "name": "جدول المواصفات مقدمة إلى شبكات الكمبيوتر",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات مقدمة إلى شبكات الكمبيوتر.pdf",
+      "size": 197315
+    },
+    {
+      "name": "جدول المواصفات مقدمة في البرمجة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات مقدمة في البرمجة.pdf",
+      "size": 174233
+    },
+    {
+      "name": "جدول المواصفات مقدمة للرسومات الرقمية والرسوم المتحركة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات مقدمة للرسومات الرقمية والرسوم المتحركة.pdf",
+      "size": 194965
+    },
+    {
+      "name": "قالب حل + شرح مهمة مقدمة إلى شبكات الكمبيوتر (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\قالب حل + شرح مهمة مقدمة إلى شبكات الكمبيوتر (أ).pdf",
+      "size": 971081
+    },
+    {
+      "name": "قالب حل + شرح مهمة مقدمة إلى شبكات الكمبيوتر (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\قالب حل + شرح مهمة مقدمة إلى شبكات الكمبيوتر (ب + ج).pdf",
+      "size": 1349868
+    },
+    {
+      "name": "قالب حل + شرح مهمة مقدمة في البرمجة (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\قالب حل + شرح مهمة مقدمة في البرمجة (أ).pdf",
+      "size": 819049
+    },
+    {
+      "name": "قالب حل + شرح مهمة مقدمة في البرمجة (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\قالب حل + شرح مهمة مقدمة في البرمجة (ب + ج).pdf",
+      "size": 7097150
+    },
+    {
+      "name": "دليل المعلم مقدمة إلى شبكات الكمبيوتر (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مقدمة إلى شبكات الكمبيوتر (أ).pdf",
+      "size": 150139
+    },
+    {
+      "name": "دليل المعلم مقدمة في البرمجة (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مقدمة في البرمجة (أ).pdf",
+      "size": 213861
+    },
+    {
+      "name": "دليل المعلم مقدمة للرسومات الرقمية والرسوم المتحركة (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مقدمة للرسومات الرقمية والرسوم المتحركة (أ).pdf",
+      "size": 226940
+    },
+    {
+      "name": "دليل المعلم مقدمة للرسومات الرقمية والرسوم المتحركة (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مقدمة للرسومات الرقمية والرسوم المتحركة (ب + ج).pdf",
+      "size": 480878
+    },
+    {
+      "name": "مهمة مقدمة إلى شبكات الكمبيوتر (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مقدمة إلى شبكات الكمبيوتر (أ).docx",
+      "size": 396048
+    },
+    {
+      "name": "مهمة مقدمة إلى شبكات الكمبيوتر (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مقدمة إلى شبكات الكمبيوتر (ب + ج).docx",
+      "size": 417817
+    },
+    {
+      "name": "مهمة مقدمة في البرمجة (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مقدمة في البرمجة (ب + ج).pdf",
+      "size": 212357
+    },
+    {
+      "name": "مهمة مقدمة للرسومات الرقمية والرسوم المتحركة (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مقدمة للرسومات الرقمية والرسوم المتحركة (أ).docx",
+      "size": 414615
+    },
+    {
+      "name": "مهمة مقدمة للرسومات الرقمية والرسوم المتحركة (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مقدمة للرسومات الرقمية والرسوم المتحركة (ب + ج).docx",
+      "size": 419379
+    },
+    {
+      "name": "كتاب مقدمة لتطوير مواقع الويب",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مقدمة لتطوير مواقع الويب.pdf",
+      "size": 14469425
+    },
+    {
+      "name": "كتاب مقدمة في التطبيقات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مقدمة في التطبيقات.pdf",
+      "size": 4666931
+    },
+    {
+      "name": "كتاب مقدمة في تصميم الألعاب",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مقدمة في تصميم الألعاب.pdf",
+      "size": 8018087
+    },
+    {
+      "name": "جدول المواصفات مقدمة لتطوير مواقع الويب",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات مقدمة لتطوير مواقع الويب.pdf",
+      "size": 168964
+    },
+    {
+      "name": "جدول المواصفات مقدمة في التطبيقات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات مقدمة في التطبيقات.pdf",
+      "size": 202425
+    },
+    {
+      "name": "جدول المواصفات مقدمة في تصميم الألعاب",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات مقدمة في تصميم الألعاب.pdf",
+      "size": 138593
+    },
+    {
+      "name": "طريقة حل مهمة مقدمة لتطوير مواقع الويب هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة مقدمة لتطوير مواقع الويب هدف (أ).pdf",
+      "size": 1112059
+    },
+    {
+      "name": "طريقة حل مهمة مقدمة في التطبيقات هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة مقدمة في التطبيقات هدف (أ).pdf",
+      "size": 1435998
+    },
+    {
+      "name": "طريقة حل مهمة مقدمة في تصميم الألعاب هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة مقدمة في تصميم الألعاب هدف (أ).pdf",
+      "size": 1713467
+    },
+    {
+      "name": "جميع المساعدات لمهمة مقدمة في تصميم الألعاب هدف (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جميع المساعدات لمهمة مقدمة في تصميم الألعاب هدف (ب + ج).pdf",
+      "size": 20430257
+    },
+    {
+      "name": "طريقة حل مهمة مقدمة في التطبيقات هدف (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة مقدمة في التطبيقات هدف (ب + ج).pdf",
+      "size": 1403588
+    },
+    {
+      "name": "طريقة حل مهمة مقدمة لتطوير مواقع الويب هدف (ب+ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة مقدمة لتطوير مواقع الويب هدف (ب+ج).pdf",
+      "size": 1829113
+    },
+    {
+      "name": "دليل المعلم مقدمة لتطوير مواقع الويب هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مقدمة لتطوير مواقع الويب هدف (أ).pdf",
+      "size": 304268
+    },
+    {
+      "name": "دليل المعلم مقدمة لتطوير مواقع الويب هدف (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مقدمة لتطوير مواقع الويب هدف (ب + ج).pdf",
+      "size": 304268
+    },
+    {
+      "name": "دليل المعلم مقدمة في التطبيقات هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مقدمة في التطبيقات هدف (أ).pdf",
+      "size": 304441
+    },
+    {
+      "name": "دليل المعلم مقدمة في تصميم الألعاب هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مقدمة في تصميم الألعاب هدف (أ).pdf",
+      "size": 283326
+    },
+    {
+      "name": "دليل المعلم مقدمة في تصميم الألعاب هدف (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مقدمة في تصميم الألعاب هدف (ب + ج).pdf",
+      "size": 453082
+    },
+    {
+      "name": "مهمة متقدمة لتطوير مواقع الويب للصف العاشر (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة متقدمة لتطوير مواقع الويب للصف العاشر (أ).docx",
+      "size": 632725
+    },
+    {
+      "name": "مهمة مقدمة في التطبيقات هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مقدمة في التطبيقات هدف (أ).docx",
+      "size": 365615
+    },
+    {
+      "name": "مهمة مقدمة في تصميم الألعاب هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مقدمة في تصميم الألعاب هدف (أ).docx",
+      "size": 364730
+    },
+    {
+      "name": "مهمة مقدمة في تصميم الألعاب هدف (ب+ج) للصف العاشر",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مقدمة في تصميم الألعاب هدف (ب+ج) للصف العاشر.docx",
+      "size": 368845
+    },
+    {
+      "name": "مهمة متقدمة لتطوير مواقع الويب للصف العاشر (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة متقدمة لتطوير مواقع الويب للصف العاشر (ب + ج).docx",
+      "size": 369406
+    },
+    {
+      "name": "مهمة مقدمة في التطبيقات هدف (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مقدمة في التطبيقات هدف (ب + ج).docx",
+      "size": 368055
+    },
+    {
+      "name": "كتاب أنظمة تكنولوجيا المعلومات الإستراتيجية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب أنظمة تكنولوجيا المعلومات الإستراتيجية.pdf",
+      "size": 4550814
+    },
+    {
+      "name": "جدول المواصفات أنظمة تكنولوجيا المعلومات الإستراتيجية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات أنظمة تكنولوجيا المعلومات الإستراتيجية.pdf",
+      "size": 296398
+    },
+    {
+      "name": "طريقة حل + شرح مهمة أنظمة تكنولوجيا المعلومات الإستراتيجية هدف (أ + ب + ج + د)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل + شرح مهمة أنظمة تكنولوجيا المعلومات الإستراتيجية هدف (أ + ب + ج + د).pptx",
+      "size": 68840
+    },
+    {
+      "name": "دليل المعلم أنظمة تكنولوجيا المعلومات الإستراتيجية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم أنظمة تكنولوجيا المعلومات الإستراتيجية.pdf",
+      "size": 194293
+    },
+    {
+      "name": "مهمة أنظمة تكنولوجيا المعلومات الإستراتيجية هدف (أ + ب + ج + د)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة أنظمة تكنولوجيا المعلومات الإستراتيجية هدف (أ + ب + ج + د).pdf",
+      "size": 278677
+    },
+    {
+      "name": "كتاب تطوير المواقع الإلكترونية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب تطوير المواقع الإلكترونية.pdf",
+      "size": 9147272
+    },
+    {
+      "name": "كتاب تطوير تطبيقات الهاتف المحمول",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب تطوير تطبيقات الهاتف المحمول.pdf",
+      "size": 10574037
+    },
+    {
+      "name": "جدول مواصفات تطوير المواقع الإلكترونية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول مواصفات تطوير المواقع الإلكترونية.pdf",
+      "size": 240768
+    },
+    {
+      "name": "جدول المواصفات تطوير تطبيقات الهاتف المحمول",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات تطوير تطبيقات الهاتف المحمول.pdf",
+      "size": 247736
+    },
+    {
+      "name": "طريقة حل + شرح مهمة تطوير المواقع الإلكترونية (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل + شرح مهمة تطوير المواقع الإلكترونية (ب + ج).pdf",
+      "size": 1170939
+    },
+    {
+      "name": "دليل المعلم تطوير المواقع الإلكترونية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم تطوير المواقع الإلكترونية.pdf",
+      "size": 395539
+    },
+    {
+      "name": "دليل المعلم تطوير تطبيقات الهاتف المحمول (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم تطوير تطبيقات الهاتف المحمول (أ).pdf",
+      "size": 311284
+    },
+    {
+      "name": "دليل المعلم تطوير تطبيقات الهاتف المحمول (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم تطوير تطبيقات الهاتف المحمول (ب + ج).pdf",
+      "size": 416375
+    },
+    {
+      "name": "مهمة تطوير المواقع الاكترونية هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة تطوير المواقع الاكترونية هدف (أ).pdf",
+      "size": 202198
+    },
+    {
+      "name": "مهمة تطوير تطبيقات الهاتف المحمول (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة تطوير تطبيقات الهاتف المحمول (أ).docx",
+      "size": 288022
+    },
+    {
+      "name": "مهمة تطوير تطبيقات الهاتف المحمول (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة تطوير تطبيقات الهاتف المحمول (ب + ج).docx",
+      "size": 293016
+    },
+    {
+      "name": "مهمة تطوير المواقع الاكترونية هدف (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة تطوير المواقع الاكترونية هدف (ب + ج).pdf",
+      "size": 303286
+    },
+    {
+      "name": "كتاب الدعم الفني وإدارة تكنولوجيا المعلومات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب الدعم الفني وإدارة تكنولوجيا المعلومات.pdf",
+      "size": 3718171
+    },
+    {
+      "name": "كتاب تطوير ألعاب الحاسوب",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب تطوير ألعاب الحاسوب.pdf",
+      "size": 7367980
+    },
+    {
+      "name": "جدول المواصفات الدعم الفني وإدارة تكنولوجيا المعلومات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات الدعم الفني وإدارة تكنولوجيا المعلومات.pdf",
+      "size": 283640
+    },
+    {
+      "name": "جدول مواصفات تطوير ألعاب الحاسوب",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول مواصفات تطوير ألعاب الحاسوب.pdf",
+      "size": 250738
+    },
+    {
+      "name": "طريقة حل مهمة الدعم الفني وإدارة تكنولوجيا المعلومات (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة الدعم الفني وإدارة تكنولوجيا المعلومات (أ).pdf",
+      "size": 1555131
+    },
+    {
+      "name": "طريقة حل مهمة تطوير ألعاب الحاسوب هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة تطوير ألعاب الحاسوب هدف (أ).pdf",
+      "size": 1421110
+    },
+    {
+      "name": "طريقة حل مهمة تطوير ألعاب الحاسوب هدف (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة تطوير ألعاب الحاسوب هدف (ب + ج).pdf",
+      "size": 1470595
+    },
+    {
+      "name": "طريقة حل مهمة الدعم الفني وإدارة تكنولوجيا المعلومات هدف (ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة الدعم الفني وإدارة تكنولوجيا المعلومات هدف (ج).pdf",
+      "size": 1450908
+    },
+    {
+      "name": "دليل المعلم تطوير ألعاب الحاسوب هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم تطوير ألعاب الحاسوب هدف (أ).pdf",
+      "size": 386583
+    },
+    {
+      "name": "مهمة تطوير ألعاب الحاسوب هدف هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة تطوير ألعاب الحاسوب هدف هدف (أ).docx",
+      "size": 488349
+    },
+    {
+      "name": "مهمة الدعم الفني وإدارة تكنولوجيا المعلومات هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الدعم الفني وإدارة تكنولوجيا المعلومات هدف (أ).docx",
+      "size": 156971
+    },
+    {
+      "name": "مهمة الدعم الفني وإدارة تكنولوجيا المعلومات هدف (ب)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الدعم الفني وإدارة تكنولوجيا المعلومات هدف (ب).docx",
+      "size": 206395
+    },
+    {
+      "name": "مهمة الدعم الفني وإدارة تكنولوجيا المعلومات هدف (ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الدعم الفني وإدارة تكنولوجيا المعلومات هدف (ج).docx",
+      "size": 207579
+    },
+    {
+      "name": "مهمة تطوير ألعاب الحاسوب هدف (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة تطوير ألعاب الحاسوب هدف (ب + ج).docx",
+      "size": 207491
+    },
+    {
+      "name": "كتاب الأمن السيبراني وإدارة الحوادث",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب الأمن السيبراني وإدارة الحوادث.pdf",
+      "size": 3637309
+    },
+    {
+      "name": "كتاب مقدمة إلى الذكاء االصطناعي AI",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مقدمة إلى الذكاء االصطناعي AI.pdf",
+      "size": 4244037
+    },
+    {
+      "name": "جدول المواصفات الأمن السيبراني وإدارة الحوادث",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات الأمن السيبراني وإدارة الحوادث.pdf",
+      "size": 301064
+    },
+    {
+      "name": "جدول المواصفات مقدمة إلى الذكاء االصطناعي AI",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات مقدمة إلى الذكاء االصطناعي AI.pdf",
+      "size": 250147
+    },
+    {
+      "name": "مهمة الأمن السيبراني وإدارة الحوادث (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الأمن السيبراني وإدارة الحوادث (أ).pdf",
+      "size": 310367
+    },
+    {
+      "name": "مهمة مقدمة إلى الذكاء االصطناعي AI هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مقدمة إلى الذكاء االصطناعي AI هدف (أ).docx",
+      "size": 220382
+    },
+    {
+      "name": "كتاب البرمجة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب البرمجة.pdf",
+      "size": 2962910
+    },
+    {
+      "name": "كتاب كتاب إدارة مشاريع تكنولوجيا المعلومات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب كتاب إدارة مشاريع تكنولوجيا المعلومات.pdf",
+      "size": 5486285
+    },
+    {
+      "name": "جدول مواصفات البرمجة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول مواصفات البرمجة.pdf",
+      "size": 245309
+    },
+    {
+      "name": "جدول المواصفات مقدمة إلى الذكاء االصطناعي AI",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات مقدمة إلى الذكاء االصطناعي AI.pdf",
+      "size": 250147
+    },
+    {
+      "name": "جدول المواصفات إدارة مشاريع تكنولوجيا المعلومات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات إدارة مشاريع تكنولوجيا المعلومات.pdf",
+      "size": 307569
+    },
+    {
+      "name": "طريقة حل مهمة البرمجة هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة البرمجة هدف (أ).pdf",
+      "size": 1214453
+    },
+    {
+      "name": "طريقة حل مهمة البرمجة هدف (ب+ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة البرمجة هدف (ب+ج).pdf",
+      "size": 1104058
+    },
+    {
+      "name": "طريقة حل + شرح مهمة مهمة إدارة مشاريع تكنولوجيا المعلومات (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل + شرح مهمة مهمة إدارة مشاريع تكنولوجيا المعلومات (أ).pdf",
+      "size": 1692186
+    },
+    {
+      "name": "طريقة حل مهمة إدارة مشاريع تكنولوجيا المعلومات هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة إدارة مشاريع تكنولوجيا المعلومات هدف (أ).pdf",
+      "size": 138245
+    },
+    {
+      "name": "مهمة البرمجة هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة البرمجة هدف (أ).docx",
+      "size": 378505
+    },
+    {
+      "name": "مهمة البرمجة هدف (ب+ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة البرمجة هدف (ب+ج).docx",
+      "size": 293050
+    },
+    {
+      "name": "مهمة مقدمة إلى الذكاء االصطناعي AI هدف (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مقدمة إلى الذكاء االصطناعي AI هدف (ب + ج).docx",
+      "size": 224316
+    },
+    {
+      "name": "مهمة إدارة مشاريع تكنولوجيا المعلومات هدف (أ)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة إدارة مشاريع تكنولوجيا المعلومات هدف (أ).docx",
+      "size": 286071
+    },
+    {
+      "name": "طريقة حل مهمة إدارة مشاريع تكنولوجيا المعلومات هدف (ب + ج + د)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة إدارة مشاريع تكنولوجيا المعلومات هدف (ب + ج + د).pdf",
+      "size": 1426244
+    },
+    {
+      "name": "مهمة إدارة مشاريع تكنولوجيا المعلومات هدف (ب + ج)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة إدارة مشاريع تكنولوجيا المعلومات هدف (ب + ج).docx",
+      "size": 83209
+    },
+    {
+      "name": "مهمة إدارة مشاريع تكنولوجيا المعلومات هدف (د)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة إدارة مشاريع تكنولوجيا المعلومات هدف (د).docx",
+      "size": 57579
+    },
+    {
+      "name": "جدول المواصفات التعريف بقطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات التعريف بقطاع الضيافة.pdf",
+      "size": 4722297
+    },
+    {
+      "name": "جدول المواصفات مهارات مكان العمل في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات مهارات مكان العمل في مجال الضيافة.pdf",
+      "size": 4722297
+    },
+    {
+      "name": "كتاب التعريف بقطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب التعريف بقطاع الضيافة.pdf",
+      "size": 49116670
+    },
+    {
+      "name": "كتاب إعداد الطعام وطهيه وتقديمه",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب إعداد الطعام وطهيه وتقديمه.pdf",
+      "size": 12937410
+    },
+    {
+      "name": "شرح + سلايدات التعريف بقطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات التعريف بقطاع الضيافة.pptx",
+      "size": 1728580
+    },
+    {
+      "name": "شرح + سلايدات مهارات مكان العمل في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات مهارات مكان العمل في مجال الضيافة.pptx",
+      "size": 60313563
+    },
+    {
+      "name": "شرح + سلايدات مهارات خدمة العملاء في قطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات مهارات خدمة العملاء في قطاع الضيافة.pptx",
+      "size": 7583204
+    },
+    {
+      "name": "شرح + سلايدات الاستدامة في قطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات الاستدامة في قطاع الضيافة.pptx",
+      "size": 5957894
+    },
+    {
+      "name": "شرح + سلايدات إعداد الطعام وطهيه وتقديمه",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات إعداد الطعام وطهيه وتقديمه.pptx",
+      "size": 1969988
+    },
+    {
+      "name": "دليل المعلم التعريف بقطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم التعريف بقطاع الضيافة.docx",
+      "size": 389074
+    },
+    {
+      "name": "دليل المعلم مهارات مكان العمل في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مهارات مكان العمل في مجال الضيافة.docx",
+      "size": 392062
+    },
+    {
+      "name": "دليل المعلم مهارات خدمة العملاء في قطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مهارات خدمة العملاء في قطاع الضيافة.docx",
+      "size": 393686
+    },
+    {
+      "name": "دليل المعلم الاستدامة في قطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم الاستدامة في قطاع الضيافة.docx",
+      "size": 395353
+    },
+    {
+      "name": "دليل المعلم إعداد الطعام وطهيه وتقديمه",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم إعداد الطعام وطهيه وتقديمه.docx",
+      "size": 392659
+    },
+    {
+      "name": "مهمة التعريف بقطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة التعريف بقطاع الضيافة.docx",
+      "size": 293112
+    },
+    {
+      "name": "مهمة مهارات مكان العمل في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مهارات مكان العمل في مجال الضيافة.docx",
+      "size": 290711
+    },
+    {
+      "name": "مهمة مهارات خدمة العملاء في قطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مهارات خدمة العملاء في قطاع الضيافة.docx",
+      "size": 293326
+    },
+    {
+      "name": "مهمة الاستدامة في قطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الاستدامة في قطاع الضيافة.docx",
+      "size": 286713
+    },
+    {
+      "name": "مهمة إعداد الطعام وطهيه وتقديمه",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة إعداد الطعام وطهيه وتقديمه.docx",
+      "size": 289326
+    },
+    {
+      "name": "جدول المواصفات الصحة والسلامة والنظافة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات الصحة والسلامة والنظافة في مجال الضيافة.pdf",
+      "size": 4722297
+    },
+    {
+      "name": "كتاب الصحة والسلامة والنظافة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب الصحة والسلامة والنظافة في مجال الضيافة.pdf",
+      "size": 17731739
+    },
+    {
+      "name": "كتاب أنماط الحياة الصحية، والأطعمة، والخيارات في قوائم الطعام",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب أنماط الحياة الصحية، والأطعمة، والخيارات في قوائم الطعام.pdf",
+      "size": 13880461
+    },
+    {
+      "name": "كتاب تقديم الأطعمة والمشروبات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب تقديم الأطعمة والمشروبات.pdf",
+      "size": 11562185
+    },
+    {
+      "name": "كتاب تقديم الشراء والرقابة على المخزون",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب تقديم الشراء والرقابة على المخزون.pdf",
+      "size": 15040165
+    },
+    {
+      "name": "كتاب المعجنات والحلويات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب المعجنات والحلويات.pdf",
+      "size": 10976705
+    },
+    {
+      "name": "شرح + سلايدات الصحة والسلامة والنظافة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات الصحة والسلامة والنظافة في مجال الضيافة.pptx",
+      "size": 1474640
+    },
+    {
+      "name": "شرح + سلايدات أنماط الحياة الصحية، والأطعمة، والخيارات في قوائم الطعام",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات أنماط الحياة الصحية، والأطعمة، والخيارات في قوائم الطعام.pptx",
+      "size": 1769909
+    },
+    {
+      "name": "شرح + سلايدات تقديم الأطعمة والمشروبات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات تقديم الأطعمة والمشروبات.pptx",
+      "size": 970302
+    },
+    {
+      "name": "شرح + سلايدات تقديم الشراء والرقابة على المخزون",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات تقديم الشراء والرقابة على المخزون.pptx",
+      "size": 1067225
+    },
+    {
+      "name": "شرح + سلايدات المعجنات والحلويات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات المعجنات والحلويات.pptx",
+      "size": 2025023
+    },
+    {
+      "name": "دليل المعلم الصحة والسلامة والنظافة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم الصحة والسلامة والنظافة في مجال الضيافة.docx",
+      "size": 395446
+    },
+    {
+      "name": "دليل المعلم أنماط الحياة الصحية، والأطعمة، والخيارات في قوائم الطعام",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم أنماط الحياة الصحية، والأطعمة، والخيارات في قوائم الطعام.docx",
+      "size": 396680
+    },
+    {
+      "name": "دليل المعلم تقديم الأطعمة والمشروبات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم تقديم الأطعمة والمشروبات.docx",
+      "size": 396957
+    },
+    {
+      "name": "دليل المعلم تقديم الشراء والرقابة على المخزون",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم تقديم الشراء والرقابة على المخزون.docx",
+      "size": 392296
+    },
+    {
+      "name": "دليل المعلم المعجنات والحلويات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم المعجنات والحلويات.docx",
+      "size": 386229
+    },
+    {
+      "name": "مهمة الصحة والسلامة والنظافة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الصحة والسلامة والنظافة في مجال الضيافة.docx",
+      "size": 288792
+    },
+    {
+      "name": "مهمة أنماط الحياة الصحية، والأطعمة، والخيارات في قوائم الطعام",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة أنماط الحياة الصحية، والأطعمة، والخيارات في قوائم الطعام.docx",
+      "size": 284171
+    },
+    {
+      "name": "مهمة تقديم الأطعمة والمشروبات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة تقديم الأطعمة والمشروبات.docx",
+      "size": 285978
+    },
+    {
+      "name": "مهمة تقديم الشراء والرقابة على المخزون",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة تقديم الشراء والرقابة على المخزون.docx",
+      "size": 285119
+    },
+    {
+      "name": "مهمة المعجنات والحلويات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة المعجنات والحلويات.docx",
+      "size": 286372
+    },
+    {
+      "name": "جدول المواصفات تخطيط وإدارة فعالية الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات تخطيط وإدارة فعالية الضيافة.pdf",
+      "size": 4722297
+    },
+    {
+      "name": "كتاب تخطيط وإدارة فعالية الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب تخطيط وإدارة فعالية الضيافة.pdf",
+      "size": 22243356
+    },
+    {
+      "name": "كتاب الطعام العالمي المعاصر",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب الطعام العالمي المعاصر.pdf",
+      "size": 12142479
+    },
+    {
+      "name": "كتاب خدمات الإقامة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب خدمات الإقامة في مجال الضيافة.pdf",
+      "size": 14393502
+    },
+    {
+      "name": "كتاب عمليات المكاتب الأمامية لقطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب عمليات المكاتب الأمامية لقطاع الضيافة.pdf",
+      "size": 11204735
+    },
+    {
+      "name": "كتاب مهارات صانع المشروبات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مهارات صانع المشروبات.pdf",
+      "size": 10948834
+    },
+    {
+      "name": "شرح + سلايدات تخطيط وإدارة فعالية الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات تخطيط وإدارة فعالية الضيافة.pptx",
+      "size": 1735737
+    },
+    {
+      "name": "شرح + سلايدات الطعام العالمي المعاصر",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات الطعام العالمي المعاصر.pptx",
+      "size": 829769
+    },
+    {
+      "name": "شرح + سلايدات خدمات الإقامة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات خدمات الإقامة في مجال الضيافة.pptx",
+      "size": 1029629
+    },
+    {
+      "name": "شرح + سلايدات عمليات المكاتب الأمامية لقطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات عمليات المكاتب الأمامية لقطاع الضيافة.pptx",
+      "size": 1188931
+    },
+    {
+      "name": "شرح + سلايدات مهارات صانع المشروبات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات مهارات صانع المشروبات.pptx",
+      "size": 903644
+    },
+    {
+      "name": "دليل المعلم تخطيط وإدارة فعالية الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم تخطيط وإدارة فعالية الضيافة.docx",
+      "size": 392486
+    },
+    {
+      "name": "دليل المعلم الطعام العالمي المعاصر",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم الطعام العالمي المعاصر.docx",
+      "size": 413581
+    },
+    {
+      "name": "دليل المعلم خدمات الإقامة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم خدمات الإقامة في مجال الضيافة.docx",
+      "size": 409192
+    },
+    {
+      "name": "دليل المعلم عمليات المكاتب الأمامية لقطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم عمليات المكاتب الأمامية لقطاع الضيافة.docx",
+      "size": 412952
+    },
+    {
+      "name": "دليل المعلم مهارات صانع المشروبات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مهارات صانع المشروبات.docx",
+      "size": 412949
+    },
+    {
+      "name": "مهمة الطعام العالمي المعاصر",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الطعام العالمي المعاصر.docx",
+      "size": 303823
+    },
+    {
+      "name": "مهمة خدمات الإقامة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة خدمات الإقامة في مجال الضيافة.docx",
+      "size": 307781
+    },
+    {
+      "name": "مهمة عمليات المكاتب الأمامية لقطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة عمليات المكاتب الأمامية لقطاع الضيافة.docx",
+      "size": 310111
+    },
+    {
+      "name": "مهمة مهارات صانع المشروبات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مهارات صانع المشروبات.docx",
+      "size": 310114
+    },
+    {
+      "name": "جدول المواصفات مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات مجال الضيافة.pdf",
+      "size": 4916652
+    },
+    {
+      "name": "جدول المواصفات توفير خدمة العملاء في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات توفير خدمة العملاء في مجال الضيافة.pdf",
+      "size": 1541456
+    },
+    {
+      "name": "كتاب مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مجال الضيافة.pdf",
+      "size": 8858755
+    },
+    {
+      "name": "كتاب توفير خدمة العملاء في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب توفير خدمة العملاء في مجال الضيافة.pdf",
+      "size": 9490869
+    },
+    {
+      "name": "شرح + سلايدات مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات مجال الضيافة.pptx",
+      "size": 15039971
+    },
+    {
+      "name": "شرح + سلايدات توفير خدمة العملاء في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات توفير خدمة العملاء في مجال الضيافة.pptx",
+      "size": 15059395
+    },
+    {
+      "name": "دليل المعلم مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مجال الضيافة.docx",
+      "size": 224775
+    },
+    {
+      "name": "دليل المعلم توفير خدمة العملاء في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم توفير خدمة العملاء في مجال الضيافة.docx",
+      "size": 228822
+    },
+    {
+      "name": "مهمة مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مجال الضيافة.docx",
+      "size": 134399
+    },
+    {
+      "name": "مهمة توفير خدمة العملاء في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة توفير خدمة العملاء في مجال الضيافة.docx",
+      "size": 124733
+    },
+    {
+      "name": "جدول المواصفات الإشراف على خدمة الأغذية والمشروبات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات الإشراف على خدمة الأغذية والمشروبات.pdf",
+      "size": 4916652
+    },
+    {
+      "name": "جدول المواصفات عمليات مكاتب الاستقبال",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات عمليات مكاتب الاستقبال.pdf",
+      "size": 1541456
+    },
+    {
+      "name": "كتاب الإشراف على خدمة الأغذية والمشروبات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب الإشراف على خدمة الأغذية والمشروبات.pdf",
+      "size": 9081660
+    },
+    {
+      "name": "كتاب عمليات مكاتب الاستقبال",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب عمليات مكاتب الاستقبال.pdf",
+      "size": 5841647
+    },
+    {
+      "name": "مهمة الإشراف على خدمة الأغذية والمشروبات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الإشراف على خدمة الأغذية والمشروبات.docx",
+      "size": 129467
+    },
+    {
+      "name": "مهمة عمليات مكاتب الاستقبال",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة عمليات مكاتب الاستقبال.docx",
+      "size": 132565
+    },
+    {
+      "name": "جدول المواصفات البيئة والاستدامة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات البيئة والاستدامة في مجال الضيافة.pdf",
+      "size": 4916652
+    },
+    {
+      "name": "جدول المواصفات مطبخ بلدك",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات مطبخ بلدك.pdf",
+      "size": 1541456
+    },
+    {
+      "name": "كتاب البيئة والاستدامة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب البيئة والاستدامة في مجال الضيافة.pdf",
+      "size": 5328314
+    },
+    {
+      "name": "كتاب مطبخ بلدك",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مطبخ بلدك.pdf",
+      "size": 20836739
+    },
+    {
+      "name": "شرح + سلايدات البيئة والاستدامة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات البيئة والاستدامة في مجال الضيافة.pptx",
+      "size": 2967951
+    },
+    {
+      "name": "شرح + سلايدات مطبخ بلدك",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات مطبخ بلدك.pptx",
+      "size": 3163886
+    },
+    {
+      "name": "دليل المعلم البيئة والاستدامة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم البيئة والاستدامة في مجال الضيافة.docx",
+      "size": 222955
+    },
+    {
+      "name": "دليل المعلم مطبخ بلدك",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مطبخ بلدك.docx",
+      "size": 219303
+    },
+    {
+      "name": "مهمة البيئة والاستدامة في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة البيئة والاستدامة في مجال الضيافة.docx",
+      "size": 123330
+    },
+    {
+      "name": "مهمة مطبخ بلدك",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مطبخ بلدك.docx",
+      "size": 118149
+    },
+    {
+      "name": "جدول المواصفات مبادئ القيادة والإشراف",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات مبادئ القيادة والإشراف.pdf",
+      "size": 4916652
+    },
+    {
+      "name": "كتاب مبادئ القيادة والإشراف",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مبادئ القيادة والإشراف.pdf",
+      "size": 1531952
+    },
+    {
+      "name": "كتاب عمليات الإقامة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب عمليات الإقامة.pdf",
+      "size": 2539597
+    },
+    {
+      "name": "شرح + سلايدات مبادئ القيادة والإشراف",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات مبادئ القيادة والإشراف.pptx",
+      "size": 1649398
+    },
+    {
+      "name": "شرح + سلايدات عمليات الإقامة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات عمليات الإقامة.pptx",
+      "size": 13523697
+    },
+    {
+      "name": "دليل المعلم مبادئ القيادة والإشراف",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مبادئ القيادة والإشراف.docx",
+      "size": 220265
+    },
+    {
+      "name": "دليل المعلم عمليات الإقامة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم عمليات الإقامة.docx",
+      "size": 219646
+    },
+    {
+      "name": "مهمة مبادئ القيادة والإشراف",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مبادئ القيادة والإشراف.docx",
+      "size": 122568
+    },
+    {
+      "name": "مهمة عمليات الإقامة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة عمليات الإقامة.docx",
+      "size": 126171
+    },
+    {
+      "name": "جدول المواصفات الإشراف على سلامة الغذاء في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات الإشراف على سلامة الغذاء في مجال الضيافة.pdf",
+      "size": 4916652
+    },
+    {
+      "name": "جدول المواصفات التكنولوجيا والوسائط الرقمية في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات التكنولوجيا والوسائط الرقمية في مجال الضيافة.pdf",
+      "size": 1541456
+    },
+    {
+      "name": "كتاب الإشراف على سلامة الغذاء في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب الإشراف على سلامة الغذاء في مجال الضيافة.pdf",
+      "size": 10534835
+    },
+    {
+      "name": "كتاب التكنولوجيا والوسائط الرقمية في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب التكنولوجيا والوسائط الرقمية في مجال الضيافة.pdf",
+      "size": 15077739
+    },
+    {
+      "name": "دليل المعلم الإشراف على سلامة الغذاء في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم الإشراف على سلامة الغذاء في مجال الضيافة.docx",
+      "size": 220457
+    },
+    {
+      "name": "دليل المعلم التكنولوجيا والوسائط الرقمية في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم التكنولوجيا والوسائط الرقمية في مجال الضيافة.docx",
+      "size": 223692
+    },
+    {
+      "name": "مهمة الإشراف على سلامة الغذاء في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الإشراف على سلامة الغذاء في مجال الضيافة.docx",
+      "size": 121099
+    },
+    {
+      "name": "مهمة التكنولوجيا والوسائط الرقمية في مجال الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة التكنولوجيا والوسائط الرقمية في مجال الضيافة.docx",
+      "size": 122558
+    },
+    {
+      "name": "جدول المواصفات مراقبة التكاليف لمشرفي الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات مراقبة التكاليف لمشرفي الضيافة.pdf",
+      "size": 4916652
+    },
+    {
+      "name": "جدول المواصفات البيع الشخصي والمهارات الترويجية في قطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات البيع الشخصي والمهارات الترويجية في قطاع الضيافة.pdf",
+      "size": 1541456
+    },
+    {
+      "name": "كتاب مراقبة التكاليف لمشرفي الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مراقبة التكاليف لمشرفي الضيافة.pdf",
+      "size": 3832310
+    },
+    {
+      "name": "كتاب البيع الشخصي والمهارات الترويجية في قطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب البيع الشخصي والمهارات الترويجية في قطاع الضيافة.pdf",
+      "size": 12783955
+    },
+    {
+      "name": "شرح + سلايدات مراقبة التكاليف لمشرفي الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات مراقبة التكاليف لمشرفي الضيافة.pptx",
+      "size": 4576874
+    },
+    {
+      "name": "شرح + سلايدات البيع الشخصي والمهارات الترويجية في قطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + سلايدات البيع الشخصي والمهارات الترويجية في قطاع الضيافة.pptx",
+      "size": 2285672
+    },
+    {
+      "name": "دليل المعلم مراقبة التكاليف لمشرفي الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم مراقبة التكاليف لمشرفي الضيافة.docx",
+      "size": 219008
+    },
+    {
+      "name": "دليل المعلم البيع الشخصي والمهارات الترويجية في قطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم البيع الشخصي والمهارات الترويجية في قطاع الضيافة.docx",
+      "size": 219908
+    },
+    {
+      "name": "مهمة مراقبة التكاليف لمشرفي الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مراقبة التكاليف لمشرفي الضيافة.docx",
+      "size": 124865
+    },
+    {
+      "name": "مهمة البيع الشخصي والمهارات الترويجية في قطاع الضيافة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة البيع الشخصي والمهارات الترويجية في قطاع الضيافة.docx",
+      "size": 117286
+    },
+    {
+      "name": "جدول المواصفات استخدام شركات عبر الإنترنت",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات استخدام شركات عبر الإنترنت.pdf",
+      "size": 291260
+    },
+    {
+      "name": "كتاب الغرض من الشركة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب الغرض من الشركة.pdf",
+      "size": 17224707
+    },
+    {
+      "name": "كتاب مؤسسات بالأعمال",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مؤسسات بالأعمال.pdf",
+      "size": 9372326
+    },
+    {
+      "name": "كتاب التنبؤ بالأداء المالي للشركة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب التنبؤ بالأداء المالي للشركة.pdf",
+      "size": 5799310
+    },
+    {
+      "name": "كتاب خطة تسويق",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب خطة تسويق.pdf",
+      "size": 7021982
+    },
+    {
+      "name": "كتاب إنشاء شركة صغيرة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب إنشاء شركة صغيرة.pdf",
+      "size": 6817974
+    },
+    {
+      "name": "كتاب العمل ضمن فريق",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب العمل ضمن فريق.pdf",
+      "size": 4512191
+    },
+    {
+      "name": "كتاب إدارة الشؤون المالية الشخصية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب إدارة الشؤون المالية الشخصية.pdf",
+      "size": 4459644
+    },
+    {
+      "name": "كتاب تقنيات العرض والترويج البصري لشركات البيع بالتجزئة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب تقنيات العرض والترويج البصري لشركات البيع بالتجزئة.pdf",
+      "size": 13399971
+    },
+    {
+      "name": "مهمة إدارة الشؤون المالية الشخصية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة إدارة الشؤون المالية الشخصية.pdf",
+      "size": 4144713
+    },
+    {
+      "name": "مهمة الأشخاص بالمنظمات عاشر فصل ثالث",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الأشخاص بالمنظمات عاشر فصل ثالث.docx",
+      "size": 320060
+    },
+    {
+      "name": "كتاب الموظفون في الشركات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب الموظفون في الشركات.pdf",
+      "size": 4164208
+    },
+    {
+      "name": "كتاب الشركات عبر الإنترنت",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب الشركات عبر الإنترنت.pdf",
+      "size": 8241103
+    },
+    {
+      "name": "كتاب أخلاقيات العمل",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب أخلاقيات العمل.pdf",
+      "size": 6787168
+    },
+    {
+      "name": "كتاب إدارة شركة صغيرة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب إدارة شركة صغيرة.pdf",
+      "size": 9679312
+    },
+    {
+      "name": "دليل المعلم استخدام شركات عبر الإنترنت",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم استخدام شركات عبر الإنترنت.pdf",
+      "size": 1111456
+    },
+    {
+      "name": "دليل المعلم الأشخاص بالمنظمات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم الأشخاص بالمنظمات.pdf",
+      "size": 817285
+    },
+    {
+      "name": "مهمة الشركات عبر الإنترنت",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الشركات عبر الإنترنت.docx",
+      "size": 322346
+    },
+    {
+      "name": "جدول المواصفات استكشاف الأعمال",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات استكشاف الأعمال.pdf",
+      "size": 4144713
+    },
+    {
+      "name": "كتاب استكشاف الأعمال",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب استكشاف الأعمال.pdf",
+      "size": 8833465
+    },
+    {
+      "name": "كتاب البحث والتخطيط لحملة تسويقية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب البحث والتخطيط لحملة تسويقية.pdf",
+      "size": 5295476
+    },
+    {
+      "name": "الدليل الإرشادي للمعلم استكشاف الأعمال (PART 2)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\الدليل الإرشادي للمعلم استكشاف الأعمال (PART 2).pdf",
+      "size": 801944
+    },
+    {
+      "name": "دليل المعلم استكشاف الأعمال",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم استكشاف الأعمال.pdf",
+      "size": 584824
+    },
+    {
+      "name": "جدول المواصفات خدمة العملاء",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات خدمة العملاء.pdf",
+      "size": 1589625
+    },
+    {
+      "name": "كتاب تمويل الأعمال",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب تمويل الأعمال.pdf",
+      "size": 3456179
+    },
+    {
+      "name": "دليل الإرشادي تمويل الأعمال (PART 2)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل الإرشادي تمويل الأعمال (PART 2).pdf",
+      "size": 1046812
+    },
+    {
+      "name": "دراسة الحالة (1) 2026",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دراسة الحالة (1) 2026.pdf",
+      "size": 629896
+    },
+    {
+      "name": "دراسة الحالة (2) 2026",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دراسة الحالة (2) 2026.pdf",
+      "size": 629198
+    },
+    {
+      "name": "جدول المواصفات أخلاقيات العمل",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات أخلاقيات العمل.pdf",
+      "size": 280634
+    },
+    {
+      "name": "كتاب إدارة إحدى الفعاليات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب إدارة إحدى الفعاليات.pdf",
+      "size": 3349990
+    },
+    {
+      "name": "دليل الإرشادي إدارة إحدى الفعاليات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل الإرشادي إدارة إحدى الفعاليات.pdf",
+      "size": 1505467
+    },
+    {
+      "name": "كتاب مبادئ الإدارة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب مبادئ الإدارة.pdf",
+      "size": 4553084
+    },
+    {
+      "name": "كتاب اتخاذ قرارات الأعمال",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب اتخاذ قرارات الأعمال.pdf",
+      "size": 4834453
+    },
+    {
+      "name": "كتاب الموارد البشرية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب الموارد البشرية.pdf",
+      "size": 2095336
+    },
+    {
+      "name": "دراسة خدمة عملاء (نموذج مناقشة الطالب للتحقق من عدم وجود سرقة أدبية أو غش)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دراسة خدمة عملاء (نموذج مناقشة الطالب للتحقق من عدم وجود سرقة أدبية أو غش).docx",
+      "size": 18443
+    },
+    {
+      "name": "دليل الإرشادي دراسة خدمة عملاء",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل الإرشادي دراسة خدمة عملاء.docx",
+      "size": 103555
+    },
+    {
+      "name": "دليل الإرشادي دراسة خدمة عملاء",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل الإرشادي دراسة خدمة عملاء.pdf",
+      "size": 1068829
+    },
+    {
+      "name": "دراسة خدمة عملاء (نموذج استلام وتسليم الواجب)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دراسة خدمة عملاء (نموذج استلام وتسليم الواجب).docx",
+      "size": 115131
+    },
+    {
+      "name": "كتاب أخلاقيات الأعمال",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\كتاب أخلاقيات الأعمال.pdf",
+      "size": 2141860
+    },
+    {
+      "name": "جدول المواصفات تطوير الفن والتصميم استجابة لموضوع ما",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\جدول المواصفات تطوير الفن والتصميم استجابة لموضوع ما.pdf",
+      "size": 11397478
+    },
+    {
+      "name": "طريقة حل وتحليل واجب التصوير الفوتوغرافي",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل وتحليل واجب التصوير الفوتوغرافي.pdf",
+      "size": 302755
+    },
+    {
+      "name": "طريقة حل + شرح مهمة تصميم الجرافيكي (A)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل + شرح مهمة تصميم الجرافيكي (A).pdf",
+      "size": 2587453
+    },
+    {
+      "name": "طريقة حل + شرح مهمة تصميم الجرافيكي (B)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل + شرح مهمة تصميم الجرافيكي (B).pdf",
+      "size": 1983853
+    },
+    {
+      "name": "طريقة حل + شرح مهمة تصميم الجرافيكي (C)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل + شرح مهمة تصميم الجرافيكي (C).pdf",
+      "size": 1763441
+    },
+    {
+      "name": "شرح + طريقة حل مهمة التواصل البصري",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح + طريقة حل مهمة التواصل البصري.docx",
+      "size": 22068
+    },
+    {
+      "name": "مهمة التعامل مع موجز التصوير الفوتوغرافي",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة التعامل مع موجز التصوير الفوتوغرافي.docx",
+      "size": 119998
+    },
+    {
+      "name": "سلايدات + شرح مهمة المنسوجات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\سلايدات + شرح مهمة المنسوجات.pptx",
+      "size": 12170607
+    },
+    {
+      "name": "قالب طريقة حل + شرح مهمة المنسوجات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\قالب طريقة حل + شرح مهمة المنسوجات.docx",
+      "size": 29976
+    },
+    {
+      "name": "مهمة مشروع بحث عملي",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مشروع بحث عملي.docx",
+      "size": 132943
+    },
+    {
+      "name": "سلايدات + شرح مهمة تصميم الجرافيكي",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\سلايدات + شرح مهمة تصميم الجرافيكي.pptx",
+      "size": 5539823
+    },
+    {
+      "name": "دليل المعلم التصميم الجرافيكي",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\دليل المعلم التصميم الجرافيكي.pdf",
+      "size": 416071
+    },
+    {
+      "name": "مهمة التعامل مع موجز التصميم الجرافيكي",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة التعامل مع موجز التصميم الجرافيكي.docx",
+      "size": 1224108
+    },
+    {
+      "name": "طريقة حل مهمة التصوير الفوتوغرافي (المستوى الثالث)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل مهمة التصوير الفوتوغرافي (المستوى الثالث).pdf",
+      "size": 894018
+    },
+    {
+      "name": "مهمة مشروع الطاقة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة مشروع الطاقة.docx",
+      "size": 422121
+    },
+    {
+      "name": "طريقة حل + تحليل معايير مهمة الأزياء (المستوى الثالث)",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\طريقة حل + تحليل معايير مهمة الأزياء (المستوى الثالث).pdf",
+      "size": 1229890
+    },
+    {
+      "name": "شرح مهمة الرحلات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح مهمة الرحلات.docx",
+      "size": 29882
+    },
+    {
+      "name": "مهمة الرحلات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الرحلات.docx",
+      "size": 421373
+    },
+    {
+      "name": "مهمة الرحلات",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الرحلات.docx",
+      "size": 421373
+    },
+    {
+      "name": "شرح مهمة الطاقة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح مهمة الطاقة.pdf",
+      "size": 1857810
+    },
+    {
+      "name": "شرح مهمة مشروع الضمير",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\شرح مهمة مشروع الضمير.docx",
+      "size": 183994
+    },
+    {
+      "name": "مهمة الضمير",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\IT_and_General\\مهمة الضمير.pdf",
+      "size": 465826
+    },
+    {
+      "name": "كتاب استكشاف مجال العناية بالشعر",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب استكشاف مجال العناية بالشعر.pdf",
+      "size": 24494222
+    },
+    {
+      "name": "كتاب الجلد والشعر والأظافر",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب الجلد والشعر والأظافر.pdf",
+      "size": 31632161
+    },
+    {
+      "name": "كتاب مهام الاستقبال في الصالون",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب مهام الاستقبال في الصالون.pdf",
+      "size": 7405059
+    },
+    {
+      "name": "كتاب ترويج وبيع المنتجات والخدمات للعملاء في الصالون",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب ترويج وبيع المنتجات والخدمات للعملاء في الصالون.pdf",
+      "size": 6253414
+    },
+    {
+      "name": "كتاب شامبو وبلسم الشعر",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب شامبو وبلسم الشعر.pdf",
+      "size": 5461624
+    },
+    {
+      "name": "كتاب فن تصفيف الشعر",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب فن تصفيف الشعر.pdf",
+      "size": 9790620
+    },
+    {
+      "name": "كتاب فن تزيين الأظافر",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب فن تزيين الأظافر.pdf",
+      "size": 4698684
+    },
+    {
+      "name": "كتاب تطبيق مستحضرات التجميل",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب تطبيق مستحضرات التجميل.pdf",
+      "size": 12235798
+    },
+    {
+      "name": "كتاب تطبيق تقنيات المانيكير والباديكير",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب تطبيق تقنيات المانيكير والباديكير.pdf",
+      "size": 12189113
+    },
+    {
+      "name": "كتاب المؤسسة التجارية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب المؤسسة التجارية.pdf",
+      "size": 4799817
+    },
+    {
+      "name": "كتاب تقنيات إزالة الشعر",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب تقنيات إزالة الشعر.pdf",
+      "size": 2586234
+    },
+    {
+      "name": "كتاب تدريب صالون التجميل المهني",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب تدريب صالون التجميل المهني.pdf",
+      "size": 4929842
+    },
+    {
+      "name": "كتاب الصحة والتعافي",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب الصحة والتعافي.pdf",
+      "size": 8006583
+    },
+    {
+      "name": "كتاب الأساليب المتقدمة للعناية بالأظافر وتجميلها",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب الأساليب المتقدمة للعناية بالأظافر وتجميلها.pdf",
+      "size": 8535445
+    },
+    {
+      "name": "كتاب علاجات البشرة المتقدمة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب علاجات البشرة المتقدمة.pdf",
+      "size": 4824526
+    },
+    {
+      "name": "كتاب المكياج الإبداعي وفن الحناء",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب المكياج الإبداعي وفن الحناء.pdf",
+      "size": 8605006
+    },
+    {
+      "name": "كتاب تلوين وتفتيح الشعر وتقنية الهايلايت",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب تلوين وتفتيح الشعر وتقنية الهايلايت.pdf",
+      "size": 5803845
+    },
+    {
+      "name": "كتاب نظرة عامة على البيع والترويج",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب نظرة عامة على البيع والترويج.pdf",
+      "size": 2536348
+    },
+    {
+      "name": "كتاب قص الشعر والتصفيف",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب قص الشعر والتصفيف.pdf",
+      "size": 14748791
+    },
+    {
+      "name": "كتاب التدليك والعلاج بالروائح العطرية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب التدليك والعلاج بالروائح العطرية.pdf",
+      "size": 21068583
+    },
+    {
+      "name": "كتاب بدء مشروع وإدارته",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Beauty\\كتاب بدء مشروع وإدارته.pdf",
+      "size": 5200705
+    },
+    {
+      "name": "resource_362",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_362.pdf",
+      "size": 3028705
+    },
+    {
+      "name": "resource_363",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_363.pdf",
+      "size": 4873236
+    },
+    {
+      "name": "resource_364",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_364.pdf",
+      "size": 4873236
+    },
+    {
+      "name": "resource_365",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_365.pdf",
+      "size": 4873236
+    },
+    {
+      "name": "resource_366",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_366.pdf",
+      "size": 4873236
+    },
+    {
+      "name": "resource_367",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_367.pdf",
+      "size": 10668893
+    },
+    {
+      "name": "resource_368",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_368.pdf",
+      "size": 6727799
+    },
+    {
+      "name": "resource_369",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_369.pdf",
+      "size": 10882419
+    },
+    {
+      "name": "resource_370",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_370.pdf",
+      "size": 11148959
+    },
+    {
+      "name": "resource_371",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_371.pptx",
+      "size": 91653833
+    },
+    {
+      "name": "resource_372",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_372.pptx",
+      "size": 46552094
+    },
+    {
+      "name": "resource_373",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_373.docx",
+      "size": 270425
+    },
+    {
+      "name": "resource_374",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_374.docx",
+      "size": 261530
+    },
+    {
+      "name": "resource_375",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_375.docx",
+      "size": 501898
+    },
+    {
+      "name": "resource_376",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_376.docx",
+      "size": 515136
+    },
+    {
+      "name": "resource_377",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_377.docx",
+      "size": 177164
+    },
+    {
+      "name": "resource_378",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_378.docx",
+      "size": 155080
+    },
+    {
+      "name": "resource_379",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_379.docx",
+      "size": 153813
+    },
+    {
+      "name": "resource_380",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_380.docx",
+      "size": 154375
+    },
+    {
+      "name": "resource_381",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_381.pdf",
+      "size": 7922368
+    },
+    {
+      "name": "resource_382",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_382.pdf",
+      "size": 35526427
+    },
+    {
+      "name": "resource_383",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_383.pdf",
+      "size": 39077163
+    },
+    {
+      "name": "resource_384",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_384.pdf",
+      "size": 14614563
+    },
+    {
+      "name": "resource_385",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_385.pdf",
+      "size": 199404341
+    },
+    {
+      "name": "resource_386",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_386.pptx",
+      "size": 1628120
+    },
+    {
+      "name": "resource_387",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_387.pptx",
+      "size": 2428547
+    },
+    {
+      "name": "resource_388",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_388.pptx",
+      "size": 5113041
+    },
+    {
+      "name": "resource_389",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_389.pptx",
+      "size": 889456
+    },
+    {
+      "name": "resource_390",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_390.pptx",
+      "size": 10766460
+    },
+    {
+      "name": "resource_391",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_391.docx",
+      "size": 268843
+    },
+    {
+      "name": "resource_392",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_392.docx",
+      "size": 259939
+    },
+    {
+      "name": "resource_393",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_393.docx",
+      "size": 272879
+    },
+    {
+      "name": "resource_394",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_394.docx",
+      "size": 261255
+    },
+    {
+      "name": "resource_395",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_395.docx",
+      "size": 268541
+    },
+    {
+      "name": "resource_396",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_396.docx",
+      "size": 518224
+    },
+    {
+      "name": "resource_397",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_397.docx",
+      "size": 159198
+    },
+    {
+      "name": "resource_398",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_398.docx",
+      "size": 175335
+    },
+    {
+      "name": "resource_399",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_399.docx",
+      "size": 164142
+    },
+    {
+      "name": "resource_400",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_400.docx",
+      "size": 160490
+    },
+    {
+      "name": "resource_401",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_401.pdf",
+      "size": 16951162
+    },
+    {
+      "name": "resource_402",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_402.pdf",
+      "size": 4286673
+    },
+    {
+      "name": "resource_407",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_407.pptx",
+      "size": 1289083
+    },
+    {
+      "name": "resource_408",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_408.pptx",
+      "size": 943344
+    },
+    {
+      "name": "resource_409",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_409.pptx",
+      "size": 2098985
+    },
+    {
+      "name": "resource_410",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_410.pptx",
+      "size": 2177147
+    },
+    {
+      "name": "resource_411",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_411.pptx",
+      "size": 11405818
+    },
+    {
+      "name": "resource_412",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_412.docx",
+      "size": 393260
+    },
+    {
+      "name": "resource_413",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_413.docx",
+      "size": 268248
+    },
+    {
+      "name": "resource_414",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_414.docx",
+      "size": 463395
+    },
+    {
+      "name": "resource_415",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_415.docx",
+      "size": 469047
+    },
+    {
+      "name": "resource_416",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_416.docx",
+      "size": 474376
+    },
+    {
+      "name": "resource_417",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_417.docx",
+      "size": 486091
+    },
+    {
+      "name": "resource_418",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_418.docx",
+      "size": 361148
+    },
+    {
+      "name": "resource_419",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_419.docx",
+      "size": 179033
+    },
+    {
+      "name": "resource_420",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_420.docx",
+      "size": 361843
+    },
+    {
+      "name": "resource_421",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_421.docx",
+      "size": 373433
+    },
+    {
+      "name": "resource_422",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_422.docx",
+      "size": 286101
+    },
+    {
+      "name": "resource_423",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_423.docx",
+      "size": 382087
+    },
+    {
+      "name": "resource_424",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_424.pdf",
+      "size": 21899874
+    },
+    {
+      "name": "resource_425",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_425.pdf",
+      "size": 18651556
+    },
+    {
+      "name": "resource_426",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_426.pptx",
+      "size": 2746176
+    },
+    {
+      "name": "resource_427",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_427.pptx",
+      "size": 4222951
+    },
+    {
+      "name": "resource_428",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_428.docx",
+      "size": 317254
+    },
+    {
+      "name": "resource_429",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_429.docx",
+      "size": 575052
+    },
+    {
+      "name": "resource_430",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_430.docx",
+      "size": 303439
+    },
+    {
+      "name": "resource_431",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_431.docx",
+      "size": 307703
+    },
+    {
+      "name": "resource_432",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_432.pdf",
+      "size": 7581275
+    },
+    {
+      "name": "resource_433",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_433.pdf",
+      "size": 19406988
+    },
+    {
+      "name": "resource_434",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_434.pptx",
+      "size": 10867604
+    },
+    {
+      "name": "resource_435",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_435.pptx",
+      "size": 2106289
+    },
+    {
+      "name": "resource_436",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_436.docx",
+      "size": 304913
+    },
+    {
+      "name": "resource_437",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_437.docx",
+      "size": 134658
+    },
+    {
+      "name": "resource_438",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_438.docx",
+      "size": 288281
+    },
+    {
+      "name": "resource_439",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_439.docx",
+      "size": 305954
+    },
+    {
+      "name": "resource_440",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_440.pdf",
+      "size": 9726023
+    },
+    {
+      "name": "resource_441",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_441.pptx",
+      "size": 3172343
+    },
+    {
+      "name": "resource_442",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_442.pptx",
+      "size": 4152776
+    },
+    {
+      "name": "resource_443",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_443.docx",
+      "size": 142433
+    },
+    {
+      "name": "resource_444",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_444.docx",
+      "size": 132620
+    },
+    {
+      "name": "resource_445",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_445.docx",
+      "size": 317731
+    },
+    {
+      "name": "resource_446",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_446.docx",
+      "size": 304416
+    },
+    {
+      "name": "resource_447",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_447.pdf",
+      "size": 12840384
+    },
+    {
+      "name": "resource_448",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_448.pdf",
+      "size": 5745785
+    },
+    {
+      "name": "resource_449",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_449.pdf",
+      "size": 6731749
+    },
+    {
+      "name": "resource_450",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_450.pdf",
+      "size": 19074738
+    },
+    {
+      "name": "resource_451",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_451.pptx",
+      "size": 4171455
+    },
+    {
+      "name": "resource_452",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_452.pptx",
+      "size": 8572810
+    },
+    {
+      "name": "resource_453",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_453.docx",
+      "size": 320093
+    },
+    {
+      "name": "resource_454",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_454.docx",
+      "size": 309574
+    },
+    {
+      "name": "resource_455",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_455.docx",
+      "size": 111268
+    },
+    {
+      "name": "resource_456",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_456.docx",
+      "size": 112819
+    },
+    {
+      "name": "resource_457",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_457.pdf",
+      "size": 6339648
+    },
+    {
+      "name": "resource_458",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_458.pdf",
+      "size": 6104241
+    },
+    {
+      "name": "resource_459",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_459.pdf",
+      "size": 6681864
+    },
+    {
+      "name": "resource_460",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_460.pdf",
+      "size": 8627184
+    },
+    {
+      "name": "resource_461",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_461.pptx",
+      "size": 4649790
+    },
+    {
+      "name": "resource_462",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_462.docx",
+      "size": 307387
+    },
+    {
+      "name": "resource_463",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_463.docx",
+      "size": 113234
+    },
+    {
+      "name": "resource_464",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_464.pdf",
+      "size": 8930534
+    },
+    {
+      "name": "resource_465",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_465.pdf",
+      "size": 8263942
+    },
+    {
+      "name": "resource_466",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_466.pdf",
+      "size": 5789743
+    },
+    {
+      "name": "resource_467",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_467.pdf",
+      "size": 13070162
+    },
+    {
+      "name": "resource_468",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_468.pptx",
+      "size": 4033577
+    },
+    {
+      "name": "resource_469",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_469.pptx",
+      "size": 5756367
+    },
+    {
+      "name": "resource_470",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_470.docx",
+      "size": 499560
+    },
+    {
+      "name": "resource_471",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_471.docx",
+      "size": 307558
+    },
+    {
+      "name": "resource_472",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_472.docx",
+      "size": 110076
+    },
+    {
+      "name": "resource_473",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_473.docx",
+      "size": 139467
+    },
+    {
+      "name": "resource_474",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_474.pdf",
+      "size": 9673403
+    },
+    {
+      "name": "resource_475",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_475.pdf",
+      "size": 7522085
+    },
+    {
+      "name": "resource_476",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_476.pptx",
+      "size": 3264840
+    },
+    {
+      "name": "resource_477",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_477.pptx",
+      "size": 3994096
+    },
+    {
+      "name": "resource_478",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_478.docx",
+      "size": 306331
+    },
+    {
+      "name": "resource_479",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_479.docx",
+      "size": 297693
+    },
+    {
+      "name": "resource_480",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_480.docx",
+      "size": 109906
+    },
+    {
+      "name": "resource_481",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_481.docx",
+      "size": 111557
+    },
+    {
+      "name": "resource_482",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_482.pdf",
+      "size": 11904992
+    },
+    {
+      "name": "resource_483",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_483.pdf",
+      "size": 11271716
+    },
+    {
+      "name": "resource_484",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_484.pptx",
+      "size": 4561242
+    },
+    {
+      "name": "resource_485",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_485.pptx",
+      "size": 2689104
+    },
+    {
+      "name": "resource_486",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_486.docx",
+      "size": 301151
+    },
+    {
+      "name": "resource_487",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_487.docx",
+      "size": 308497
+    },
+    {
+      "name": "resource_488",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_488.docx",
+      "size": 117136
+    },
+    {
+      "name": "resource_489",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_489.docx",
+      "size": 114004
+    },
+    {
+      "name": "resource_490",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_490.pdf",
+      "size": 14350792
+    },
+    {
+      "name": "resource_491",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_491.pdf",
+      "size": 7734788
+    },
+    {
+      "name": "resource_492",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_492.pdf",
+      "size": 6625590
+    },
+    {
+      "name": "resource_493",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_493.pptx",
+      "size": 3744036
+    },
+    {
+      "name": "resource_494",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_494.pptx",
+      "size": 1183290
+    },
+    {
+      "name": "resource_495",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_495.docx",
+      "size": 294266
+    },
+    {
+      "name": "resource_496",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_496.docx",
+      "size": 112237
+    },
+    {
+      "name": "resource_499",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_499.pptx",
+      "size": 3437449
+    },
+    {
+      "name": "resource_500",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_500.pptx",
+      "size": 3208807
+    },
+    {
+      "name": "resource_501",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_501.docx",
+      "size": 310006
+    },
+    {
+      "name": "resource_502",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_502.docx",
+      "size": 302686
+    },
+    {
+      "name": "resource_503",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_503.docx",
+      "size": 214991
+    },
+    {
+      "name": "resource_504",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_504.docx",
+      "size": 215597
+    },
+    {
+      "name": "resource_507",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_507.pptx",
+      "size": 7577771
+    },
+    {
+      "name": "resource_508",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_508.pptx",
+      "size": 2629902
+    },
+    {
+      "name": "resource_509",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_509.docx",
+      "size": 305240
+    },
+    {
+      "name": "resource_510",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_510.docx",
+      "size": 293478
+    },
+    {
+      "name": "resource_512",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_512.docx",
+      "size": 210559
+    },
+    {
+      "name": "resource_515",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_515.pptx",
+      "size": 4739357
+    },
+    {
+      "name": "resource_516",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_516.pptx",
+      "size": 3613597
+    },
+    {
+      "name": "resource_517",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_517.docx",
+      "size": 295790
+    },
+    {
+      "name": "resource_518",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_518.docx",
+      "size": 292968
+    },
+    {
+      "name": "resource_519",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_519.docx",
+      "size": 219946
+    },
+    {
+      "name": "resource_520",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Engineering\\resource_520.docx",
+      "size": 218150
+    },
+    {
+      "name": "resource_521",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_521.pdf",
+      "size": 3188241
+    },
+    {
+      "name": "resource_522",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_522.pdf",
+      "size": 7063445
+    },
+    {
+      "name": "resource_523",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_523.pdf",
+      "size": 5606321
+    },
+    {
+      "name": "resource_524",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_524.pdf",
+      "size": 8007211
+    },
+    {
+      "name": "resource_525",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_525.pdf",
+      "size": 9464809
+    },
+    {
+      "name": "resource_526",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_526.pdf",
+      "size": 6349396
+    },
+    {
+      "name": "resource_527",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_527.pdf",
+      "size": 9522311
+    },
+    {
+      "name": "resource_528",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_528.pdf",
+      "size": 10405790
+    },
+    {
+      "name": "resource_529",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_529.pptx",
+      "size": 2126288
+    },
+    {
+      "name": "resource_530",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_530.pptx",
+      "size": 41178576
+    },
+    {
+      "name": "resource_531",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_531.pptx",
+      "size": 4684124
+    },
+    {
+      "name": "resource_532",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_532.pptx",
+      "size": 4487995
+    },
+    {
+      "name": "resource_533",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_533.pptx",
+      "size": 2016297
+    },
+    {
+      "name": "resource_534",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_534.pptx",
+      "size": 7018167
+    },
+    {
+      "name": "resource_535",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_535.pptx",
+      "size": 5749875
+    },
+    {
+      "name": "resource_536",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_536.docx",
+      "size": 233865
+    },
+    {
+      "name": "resource_537",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_537.docx",
+      "size": 232604
+    },
+    {
+      "name": "resource_538",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_538.docx",
+      "size": 236005
+    },
+    {
+      "name": "resource_539",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_539.docx",
+      "size": 229148
+    },
+    {
+      "name": "resource_541",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_541.docx",
+      "size": 237274
+    },
+    {
+      "name": "resource_542",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_542.docx",
+      "size": 238753
+    },
+    {
+      "name": "resource_543",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_543.docx",
+      "size": 331179
+    },
+    {
+      "name": "resource_544",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_544.docx",
+      "size": 329791
+    },
+    {
+      "name": "resource_545",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_545.docx",
+      "size": 332420
+    },
+    {
+      "name": "resource_546",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_546.docx",
+      "size": 329467
+    },
+    {
+      "name": "resource_547",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_547.docx",
+      "size": 234273
+    },
+    {
+      "name": "resource_548",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_548.docx",
+      "size": 339347
+    },
+    {
+      "name": "resource_549",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Healthcare\\resource_549.docx",
+      "size": 332557
+    },
+    {
+      "name": "resource_550",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\resource_550.pdf",
+      "size": 3721573
+    },
+    {
+      "name": "الوحدة 1: مبادئ اللياقة البدنية واختبارات اللياقة البدنية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 1_ مبادئ اللياقة البدنية واختبارات اللياقة البدنية.pdf",
+      "size": 8306071
+    },
+    {
+      "name": "الوحدة 1: مبادئ اللياقة البدنية واختبارات اللياقة البدنية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 1_ مبادئ اللياقة البدنية واختبارات اللياقة البدنية.pptx",
+      "size": 10279255
+    },
+    {
+      "name": "الوحدة 1: مبادئ اللياقة البدنية واختبارات اللياقة البدنية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 1_ مبادئ اللياقة البدنية واختبارات اللياقة البدنية.docx",
+      "size": 457064
+    },
+    {
+      "name": "resource_554",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\resource_554.docx",
+      "size": 560444
+    },
+    {
+      "name": "الوحدة 2: التدريب للتمتع باللياقة البدنية الشخصية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 2_ التدريب للتمتع باللياقة البدنية الشخصية.pdf",
+      "size": 5788156
+    },
+    {
+      "name": "الوحدة 2: التدريب للتمتع باللياقة البدنية الشخصية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 2_ التدريب للتمتع باللياقة البدنية الشخصية.pptx",
+      "size": 17517137
+    },
+    {
+      "name": "الوحدة 2: التدريب للتمتع باللياقة البدنية الشخصية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 2_ التدريب للتمتع باللياقة البدنية الشخصية.docx",
+      "size": 452968
+    },
+    {
+      "name": "resource_558",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\resource_558.docx",
+      "size": 551104
+    },
+    {
+      "name": "الوحدة 3: مهارات الأعمال التجارية في مجال الرياضة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 3_ مهارات الأعمال التجارية في مجال الرياضة.pdf",
+      "size": 7858419
+    },
+    {
+      "name": "الوحدة 3: مهارات الأعمال التجارية في مجال الرياضة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 3_ مهارات الأعمال التجارية في مجال الرياضة.pptx",
+      "size": 3031864
+    },
+    {
+      "name": "الوحدة 3: مهارات الأعمال التجارية في مجال الرياضة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 3_ مهارات الأعمال التجارية في مجال الرياضة.docx",
+      "size": 484174
+    },
+    {
+      "name": "resource_562",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\resource_562.docx",
+      "size": 466753
+    },
+    {
+      "name": "الوحدة 4: التطوير في مجال الرياضة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 4_ التطوير في مجال الرياضة.pdf",
+      "size": 11521928
+    },
+    {
+      "name": "الوحدة 4: التطوير في مجال الرياضة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 4_ التطوير في مجال الرياضة.pptx",
+      "size": 21366124
+    },
+    {
+      "name": "الوحدة 4: التطوير في مجال الرياضة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 4_ التطوير في مجال الرياضة.docx",
+      "size": 490506
+    },
+    {
+      "name": "resource_566",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\resource_566.docx",
+      "size": 471929
+    },
+    {
+      "name": "الوحدة 5: الرياضة التطبيقية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 5_ الرياضة التطبيقية.pdf",
+      "size": 8137781
+    },
+    {
+      "name": "الوحدة 5: الرياضة التطبيقية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 5_ الرياضة التطبيقية.pptx",
+      "size": 14549837
+    },
+    {
+      "name": "الوحدة 5: الرياضة التطبيقية",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 5_ الرياضة التطبيقية.docx",
+      "size": 274112
+    },
+    {
+      "name": "resource_570",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\resource_570.docx",
+      "size": 355180
+    },
+    {
+      "name": "الوحدة 6: القيادة في مجال الرياضة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 6_ القيادة في مجال الرياضة.pdf",
+      "size": 8833338
+    },
+    {
+      "name": "الوحدة 6: القيادة في مجال الرياضة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 6_ القيادة في مجال الرياضة.pptx",
+      "size": 3793528
+    },
+    {
+      "name": "الوحدة 6: القيادة في مجال الرياضة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 6_ القيادة في مجال الرياضة.docx",
+      "size": 264707
+    },
+    {
+      "name": "resource_574",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\resource_574.docx",
+      "size": 257457
+    },
+    {
+      "name": "الوحدة 7: علم التشريح وعلم وظائف الأعضاء في مجال الرياضة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 7_ علم التشريح وعلم وظائف الأعضاء في مجال الرياضة.pdf",
+      "size": 6927648
+    },
+    {
+      "name": "الوحدة 7: علم التشريح وعلم وظائف الأعضاء في مجال الرياضة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 7_ علم التشريح وعلم وظائف الأعضاء في مجال الرياضة.pptx",
+      "size": 34956922
+    },
+    {
+      "name": "الوحدة 7: علم التشريح وعلم وظائف الأعضاء في مجال الرياضة",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\الوحدة 7_ علم التشريح وعلم وظائف الأعضاء في مجال الرياضة.docx",
+      "size": 251802
+    },
+    {
+      "name": "resource_578",
+      "path": "m:\\ma-btec-all.github.io-main\\downloaded_resources\\Sports\\resource_578.docx",
+      "size": 376549
+    }
+  ],
+  "finishedAt": "2026-08-22T22:29:48.115Z"
+}

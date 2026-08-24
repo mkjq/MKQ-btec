@@ -103,11 +103,18 @@ export default function Footer() {
                 <a
                   key={link.id}
                   href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target={link.inactive ? undefined : "_blank"}
+                  rel={link.inactive ? undefined : "noopener noreferrer"}
                   aria-label={link.label}
                   title={link.label}
-                  className="w-9 h-9 rounded-lg border border-border/50 bg-secondary/40 flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/40 hover:bg-primary/10 transition-all"
+                  onClick={(e) => {
+                    if (link.inactive) e.preventDefault();
+                  }}
+                  className={`w-9 h-9 rounded-lg border border-border/50 bg-secondary/40 flex items-center justify-center transition-all ${
+                    link.inactive 
+                      ? "opacity-50 cursor-default text-muted-foreground/50" 
+                      : "text-muted-foreground hover:text-primary hover:border-primary/40 hover:bg-primary/10"
+                  }`}
                 >
                   <Icon className="w-4 h-4" />
                 </a>

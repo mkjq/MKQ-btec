@@ -51,31 +51,40 @@ function ContactTile({
   onEnter: () => void;
   onLeave: () => void;
 }) {
+  const isHovered = hovered && !item.inactive;
+
   return (
     <a
       href={item.href}
-      target="_blank"
-      rel="noopener noreferrer"
-      onMouseEnter={onEnter}
-      onMouseLeave={onLeave}
-      onFocus={onEnter}
-      onBlur={onLeave}
-      className="group relative overflow-hidden rounded-2xl border px-4 py-3 transition-[transform,box-shadow,background] duration-500 ease-out hover:scale-[1.01]"
+      target={item.href === "#" ? undefined : "_blank"}
+      rel={item.href === "#" ? undefined : "noopener noreferrer"}
+      onMouseEnter={item.inactive ? undefined : onEnter}
+      onMouseLeave={item.inactive ? undefined : onLeave}
+      onFocus={item.inactive ? undefined : onEnter}
+      onBlur={item.inactive ? undefined : onLeave}
+      onClick={(e) => {
+        if (item.inactive) {
+          e.preventDefault();
+        }
+      }}
+      className={`group relative overflow-hidden rounded-2xl border px-4 py-3 transition-[transform,box-shadow,background] duration-500 ease-out ${item.inactive ? "opacity-50 cursor-default" : "hover:scale-[1.01]"}`}
       style={{
-        borderColor: hovered ? "rgba(255,255,255,0.16)" : "rgba(255, 225, 170, 0.14)",
-        background: hovered ? item.brand.bg : "rgba(255,255,255,0.035)",
-        boxShadow: hovered ? item.brand.glow : "0 0 0 rgba(0,0,0,0)",
+        borderColor: isHovered ? "rgba(255,255,255,0.16)" : "rgba(255, 225, 170, 0.14)",
+        background: isHovered ? item.brand.bg : "rgba(255,255,255,0.035)",
+        boxShadow: isHovered ? item.brand.glow : "0 0 0 rgba(0,0,0,0)",
         backdropFilter: "blur(16px)",
         WebkitBackdropFilter: "blur(16px)",
       }}
     >
-      <div
-        className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-        style={{
-          background:
-            "radial-gradient(520px 220px at 25% 10%, rgba(255,255,255,0.22), transparent 60%), radial-gradient(520px 220px at 95% 0%, rgba(0,0,0,0.22), transparent 60%)",
-        }}
-      />
+      {!item.inactive && (
+        <div
+          className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+          style={{
+            background:
+              "radial-gradient(520px 220px at 25% 10%, rgba(255,255,255,0.22), transparent 60%), radial-gradient(520px 220px at 95% 0%, rgba(0,0,0,0.22), transparent 60%)",
+          }}
+        />
+      )}
 
       <div className="relative flex items-center justify-between gap-3">
         <div className="flex items-center gap-3 min-w-0">
@@ -120,7 +129,7 @@ export default function ContactPage() {
       {
         id: "whatsapp",
         label: "الواتساب",
-        href: "https://wa.me/962779538251",
+        href: "#", inactive: true,
         hint: "تواصل مباشر",
         icon: <MessageCircle className="h-5 w-5" />,
         brand: {
@@ -131,9 +140,9 @@ export default function ContactPage() {
       },
       {
         id: "insta-btec",
-        label: "الأنستقرام (MKQ BTEC)",
-        href: "https://www.instagram.com/its.btec.it",
-        hint: "@its.btec.it",
+        label: "إنستغرام",
+        href: "https://instagram.com/55htp",
+        hint: "@55htp",
         icon: <Instagram className="h-5 w-5" />,
         brand: {
           bg: "linear-gradient(135deg, rgba(236, 72, 153, 0.34), rgba(59, 130, 246, 0.22))",
@@ -144,7 +153,7 @@ export default function ContactPage() {
       {
         id: "facebook",
         label: "الفيسبوك",
-        href: "https://www.facebook.com/share/173Lm6oHHR/",
+        href: "#", inactive: true,
         hint: "صفحة المجتمع",
         icon: <Facebook className="h-5 w-5" />,
         brand: {
@@ -156,7 +165,7 @@ export default function ContactPage() {
       {
         id: "youtube",
         label: "YouTube",
-        href: "https://www.youtube.com",
+        href: "#", inactive: true,
         hint: "شروحات ومحاضرات",
         icon: <Youtube className="h-5 w-5" />,
         brand: {
@@ -168,7 +177,7 @@ export default function ContactPage() {
       {
         id: "linkedin",
         label: "لينكد إن",
-        href: "https://www.linkedin.com",
+        href: "#", inactive: true,
         hint: "محمد خالد قطناني",
         icon: <Linkedin className="h-5 w-5" />,
         brand: {
@@ -180,7 +189,7 @@ export default function ContactPage() {
       {
         id: "email",
         label: "البريد الإلكتروني",
-        href: "mailto:info@mkq-btec.edu",
+        href: "#", inactive: true,
         hint: "تواصل رسمي",
         icon: <AtSign className="h-5 w-5" />,
         brand: {

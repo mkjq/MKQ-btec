@@ -1,46 +1,46 @@
 import type { DepartmentResources, GradeData, SemesterData, ResourceFile } from "./assistanceResources";
 
 // روابط متكررة لجميع الفصول في الرعاية الصحية للصف العاشر
-const SPECS_URL = "/resources/Healthcare/resource_215.pdf";
+const SPECS_URL = "/MKQ-btec/resources/Healthcare/resource_215.pdf";
 
 const BOOKS: Record<string, string> = {
-  u1: "/resources/Healthcare/resource_216.pdf",
-  u2: "/resources/Healthcare/resource_217.pdf",
-  u3: "/resources/Healthcare/resource_218.pdf",
-  u4: "/resources/Healthcare/resource_219.pdf",
-  u5: "/resources/Healthcare/resource_220.pdf",
-  u7: "/resources/Healthcare/resource_221.pdf",
-  u8: "/resources/Healthcare/resource_222.pdf",
+  u1: "/MKQ-btec/resources/Healthcare/resource_216.pdf",
+  u2: "/MKQ-btec/resources/Healthcare/resource_217.pdf",
+  u3: "/MKQ-btec/resources/Healthcare/resource_218.pdf",
+  u4: "/MKQ-btec/resources/Healthcare/resource_219.pdf",
+  u5: "/MKQ-btec/resources/Healthcare/resource_220.pdf",
+  u7: "/MKQ-btec/resources/Healthcare/resource_221.pdf",
+  u8: "/MKQ-btec/resources/Healthcare/resource_222.pdf",
 };
 
 const EXPLANATIONS: Record<string, string> = {
-  u1: "/resources/Healthcare/resource_223.pptx",
-  u2: "/resources/Healthcare/resource_224.pptx",
-  u3: "/resources/Healthcare/resource_225.pptx",
-  u4: "/resources/Healthcare/resource_226.pptx",
-  u5: "/resources/Healthcare/resource_227.pptx",
-  u7: "/resources/Healthcare/resource_228.pptx",
-  u8: "/resources/Healthcare/resource_229.pptx",
+  u1: "/MKQ-btec/resources/Healthcare/resource_223.pptx",
+  u2: "/MKQ-btec/resources/Healthcare/resource_224.pptx",
+  u3: "/MKQ-btec/resources/Healthcare/resource_225.pptx",
+  u4: "/MKQ-btec/resources/Healthcare/resource_226.pptx",
+  u5: "/MKQ-btec/resources/Healthcare/resource_227.pptx",
+  u7: "/MKQ-btec/resources/Healthcare/resource_228.pptx",
+  u8: "/MKQ-btec/resources/Healthcare/resource_229.pptx",
 };
 
 const ASSIGNMENTS: Record<string, string> = {
-  u1: "/resources/Healthcare/resource_230.docx",
-  u2: "/resources/Healthcare/resource_231.docx",
-  u3: "/resources/Healthcare/resource_232.docx",
-  u4: "/resources/Healthcare/resource_233.docx",
-  u5: "/resources/Healthcare/resource_233.docx",
-  u7: "/resources/Healthcare/resource_235.docx",
-  u8: "/resources/Healthcare/resource_236.docx",
+  u1: "/MKQ-btec/resources/Healthcare/resource_230.docx",
+  u2: "/MKQ-btec/resources/Healthcare/resource_231.docx",
+  u3: "/MKQ-btec/resources/Healthcare/resource_232.docx",
+  u4: "/MKQ-btec/resources/Healthcare/resource_233.docx",
+  u5: "/MKQ-btec/resources/Healthcare/resource_233.docx",
+  u7: "/MKQ-btec/resources/Healthcare/resource_235.docx",
+  u8: "/MKQ-btec/resources/Healthcare/resource_236.docx",
 };
 
 const TEACHER: Record<string, string> = {
-  u1: "/resources/Healthcare/resource_237.docx",
-  u2: "/resources/Healthcare/resource_238.docx",
-  u3: "/resources/Healthcare/resource_239.docx",
-  u4: "/resources/Healthcare/resource_240.docx",
-  u5: "/resources/Healthcare/resource_241.docx",
-  u7: "/resources/Healthcare/resource_242.docx",
-  u8: "/resources/Healthcare/resource_243.docx",
+  u1: "/MKQ-btec/resources/Healthcare/resource_237.docx",
+  u2: "/MKQ-btec/resources/Healthcare/resource_238.docx",
+  u3: "/MKQ-btec/resources/Healthcare/resource_239.docx",
+  u4: "/MKQ-btec/resources/Healthcare/resource_240.docx",
+  u5: "/MKQ-btec/resources/Healthcare/resource_241.docx",
+  u7: "/MKQ-btec/resources/Healthcare/resource_242.docx",
+  u8: "/MKQ-btec/resources/Healthcare/resource_243.docx",
 };
 
 const UNITS: Array<{ key: keyof typeof BOOKS; title: string }> = [

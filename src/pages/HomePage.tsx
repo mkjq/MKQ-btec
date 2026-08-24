@@ -4,21 +4,14 @@ import VideoTourSection from "@/components/VideoTourSection";
 import MainSectionsGrid from "@/components/MainSectionsGrid";
 import Footer from "@/components/Footer";
 import ScrollProgressBar from "@/components/ScrollProgressBar";
-import DeepSpaceBackground from "@/components/DeepSpaceBackground";
+import AnimatedPatternBackground from "@/components/AnimatedPatternBackground";
 import { motion } from "framer-motion";
 
 const HomePage = () => {
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
       <div className="fixed inset-0 pointer-events-none z-0">
-        <DeepSpaceBackground className="absolute inset-0" />
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "radial-gradient(900px 700px at 50% 0%, rgba(216, 166, 96, 0.07), transparent 55%), radial-gradient(800px 600px at 20% 100%, rgba(15, 118, 110, 0.08), transparent 50%)",
-          }}
-        />
+        <AnimatedPatternBackground className="absolute inset-0" />
       </div>
 
       <Navbar />

@@ -415,3 +415,5 @@ export const gradeConfig: Record<GradeLevel, { label: string; labelAr: string; b
     glow: "rgba(245, 158, 11, 0.4)",
   },
 };
+
+export const btecGlossary = glossaryTerms;

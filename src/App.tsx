@@ -9,7 +9,6 @@ import { ThemeProvider } from "@/hooks/useTheme";
 import { AccentColorProvider } from "@/hooks/useAccentColor";
 import { LanguageProvider } from "@/hooks/useLanguage";
 import SettingsPanel from "@/components/SettingsPanel";
-import BackgroundAudioProvider from "@/components/BackgroundAudioProvider";
 import SplashScreen from "@/components/SplashScreen";
 import MotivationToast from "@/components/MotivationToast";
 import { MotivationProvider } from "@/hooks/useMotivation";
@@ -74,10 +73,9 @@ const App = () => {
             <TooltipProvider>
               <Toaster />
               <Sonner />
-              <BrowserRouter>
+              <BrowserRouter basename="/MKQ-btec/">
                 <AuthProvider>
                   <MotivationProvider>
-                  <BackgroundAudioProvider>
                     <Suspense fallback={null}>
                     <Routes>
                       <Route path="/" element={<HomePage />} />
@@ -106,7 +104,6 @@ const App = () => {
                     </Suspense>
                     <SettingsPanel />
                     <MotivationToast />
-                  </BackgroundAudioProvider>
                   </MotivationProvider>
                 </AuthProvider>
               </BrowserRouter>

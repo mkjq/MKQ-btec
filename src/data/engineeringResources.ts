@@ -16,11 +16,11 @@ const S = (partial: Partial<{ books: F[]; specs: F[]; explanations: F[]; teacher
   assignments: { files: partial.assignments ?? [] },
 });
 
-const G10_SPEC = "https://drive.google.com/file/d/1axeX7KrBJJw-6lY-D-yv7EIjo9s60ozo/view?usp=drive_link";
-const G11_SPEC = "https://drive.google.com/file/d/1FEyyokQDbpmW_2ncpRKGJchas07iil7W/view?usp=drive_link";
-const G12_EL_SPEC = "https://drive.google.com/file/d/1KEaAsN-RZIvhOewroVyAo2-31TSqp2LJ/view?usp=drive_link";
-const G12_ME_SPEC = "https://drive.google.com/file/d/1_-cY2SyKY2OrL-kexN7_GJ-BJ9dwy6FA/view?usp=sharing";
-const G12_VT_SPEC = "https://drive.google.com/file/d/1GDHFHOhwZgzw96KJN2stJe153DqxaS_J/view?usp=sharing";
+const G10_SPEC = "/resources/Engineering/resource_56.pdf";
+const G11_SPEC = "/resources/Engineering/resource_57.pdf";
+const G12_EL_SPEC = "/resources/Engineering/resource_58.pdf";
+const G12_ME_SPEC = "/resources/Engineering/resource_59.pdf";
+const G12_VT_SPEC = "/resources/Engineering/resource_60.pdf";
 
 const grade10: {
   semester1: ReturnType<typeof S>;
@@ -35,26 +35,26 @@ const grade10: {
       f("جدول المواصفات — الصيانة الهندسية", G10_SPEC),
     ],
     books: [
-      f("كتاب العمل بأمان وفاعلية في الورشة الهندسية", "https://drive.google.com/file/d/1zEnftn-sUj9vrgXgaj6IT_BaRPUv4QE5/view"),
-      f("كتاب مهارات في المسائل الهندسية لابتكار الحلول", "https://drive.google.com/file/d/1VDUfHpJ9qTzFEt6Bp4etDPR5wJeDtpQF/view"),
-      f("كتاب التحقق من منتج هندسي", "https://drive.google.com/file/d/1yIubxopc1aTJgo21Pat0WjOTzkAwAUo6/view"),
-      f("كتاب الصيانة الهندسية", "https://drive.google.com/file/d/1d7GZA3vvEwSFNdtAfKFKAjCcWnHNbTTi/view"),
+      f("كتاب العمل بأمان وفاعلية في الورشة الهندسية", "/resources/Engineering/resource_61.pdf"),
+      f("كتاب مهارات في المسائل الهندسية لابتكار الحلول", "/resources/Engineering/resource_62.pdf"),
+      f("كتاب التحقق من منتج هندسي", "/resources/Engineering/resource_63.pdf"),
+      f("كتاب الصيانة الهندسية", "/resources/Engineering/resource_64.pdf"),
     ],
     explanations: [
-      f("شرح العمل بأمان وفاعلية في الورشة الهندسية", "https://docs.google.com/presentation/d/1b73Qxy10lorAyYW5TEIgHu7W4FPQfgkw/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح مهارات في المسائل الهندسية لابتكار الحلول", "https://docs.google.com/presentation/d/1nrae6V3A8ncCufV4UbO9pfMaoqntdRUD/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح العمل بأمان وفاعلية في الورشة الهندسية", "/resources/Engineering/resource_65.pptx", "presentation"),
+      f("شرح مهارات في المسائل الهندسية لابتكار الحلول", "/resources/Engineering/resource_66.pptx", "presentation"),
     ],
     teacherGuide: [
-      f("دليل المعلم — العمل بأمان وفاعلية في الورشة الهندسية", "https://docs.google.com/document/d/190HmXqZNzDi--xQWkZJrT2mR941ZxUEU/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — مهارات في المسائل الهندسية لابتكار الحلول", "https://docs.google.com/document/d/10epByDD49S9KfBJfEon0vypiX8qmifQB/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — التحقق من منتج هندسي", "https://docs.google.com/document/d/19QDCkGumBi1FFkhBTOV_zRhufnxrf5qP/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — الصيانة الهندسية", "https://docs.google.com/document/d/1jKYPatwhYbS7uy3H_5q4NBC8Qt_XV-NM/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — العمل بأمان وفاعلية في الورشة الهندسية", "/resources/Engineering/resource_67.docx", "doc"),
+      f("دليل المعلم — مهارات في المسائل الهندسية لابتكار الحلول", "/resources/Engineering/resource_68.docx", "doc"),
+      f("دليل المعلم — التحقق من منتج هندسي", "/resources/Engineering/resource_69.docx", "doc"),
+      f("دليل المعلم — الصيانة الهندسية", "/resources/Engineering/resource_70.docx", "doc"),
     ],
     assignments: [
-      f("مهمة العمل بأمان وفاعلية في الورشة الهندسية (أ + ب)", "https://docs.google.com/document/d/1wljDz1-bJwJEVfwADb_PkHqE6kNVdGrz/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة مهارات في المسائل الهندسية لابتكار الحلول (أ)", "https://docs.google.com/document/d/1cI7Am5loyBM03oSsT_5Zeat8Faso5z9b/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة التحقق من منتج هندسي (أ + ب)", "https://docs.google.com/document/d/19JiFjVTMxP4hVtYpvMM0L0o7aSY9SIw5/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة الصيانة الهندسية (أ + ب)", "https://docs.google.com/document/d/1AaSs5d1W3hr5mqh8k2ZX8DS_Hvhko3p1/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة العمل بأمان وفاعلية في الورشة الهندسية (أ + ب)", "/resources/Engineering/resource_71.docx", "doc"),
+      f("مهمة مهارات في المسائل الهندسية لابتكار الحلول (أ)", "/resources/Engineering/resource_72.docx", "doc"),
+      f("مهمة التحقق من منتج هندسي (أ + ب)", "/resources/Engineering/resource_73.docx", "doc"),
+      f("مهمة الصيانة الهندسية (أ + ب)", "/resources/Engineering/resource_74.docx", "doc"),
     ],
   }),
   semester2: S({
@@ -66,32 +66,32 @@ const grade10: {
       f("جدول المواصفات — تقنيات صيانة المركبات", G10_SPEC),
     ],
     books: [
-      f("كتاب الرياضيات لفني الهندسي", "https://drive.google.com/file/d/1fBOienHtGRz9rZ5VtK0_iik8ACpXqFWx/view"),
-      f("كتاب المواد الهندسية", "https://drive.google.com/file/d/1MY9ZL6ykFsdFW38OMgVJKty1IJcW2M63/view"),
-      f("كتاب إنشاء الدوائر الكهربائية والإلكترونية واختبارها", "https://drive.google.com/file/d/11grQ1vPzaK_WOAwtwcMI0GMNtYaci4Ft/view"),
-      f("كتاب البرمجة العامة", "https://drive.google.com/file/d/1qd7BIlPs9-Nxzo_IfBNmM5CWr1wA6VMY/view"),
-      f("كتاب تقنيات صيانة المركبات", "https://drive.google.com/file/d/1aa0TScs88l4KayZi5Kfe6nvv46aGZjXF/view"),
+      f("كتاب الرياضيات لفني الهندسي", "/resources/Engineering/resource_75.pdf"),
+      f("كتاب المواد الهندسية", "/resources/Engineering/resource_76.pdf"),
+      f("كتاب إنشاء الدوائر الكهربائية والإلكترونية واختبارها", "/resources/Engineering/resource_77.pdf"),
+      f("كتاب البرمجة العامة", "/resources/Engineering/resource_78.pdf"),
+      f("كتاب تقنيات صيانة المركبات", "/resources/Engineering/resource_79.pdf"),
     ],
     explanations: [
-      f("شرح الرياضيات لفني الهندسي", "https://docs.google.com/presentation/d/1Gx9fJpn1GzHHgVehAnWh3fICdf6FAjnw/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح المواد الهندسية", "https://docs.google.com/presentation/d/1q2JKTAITvake3V5vrYsoHs3zv8-k8wCo/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح إنشاء الدوائر الكهربائية والإلكترونية واختبارها", "https://docs.google.com/presentation/d/1uUQNYsUDBiwY3ilNGdXDXYRmkIn_Gzu8/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح البرمجة العامة", "https://docs.google.com/presentation/d/1l0Lk1wVvc6sSsdOycILiKA5IB510HSEo/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح تقنيات صيانة المركبات", "https://docs.google.com/presentation/d/1bkGPfbucNmeilpbdgFsYBRZ1f2Eb3Uwt/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح الرياضيات لفني الهندسي", "/resources/Engineering/resource_80.pptx", "presentation"),
+      f("شرح المواد الهندسية", "/resources/Engineering/resource_81.pptx", "presentation"),
+      f("شرح إنشاء الدوائر الكهربائية والإلكترونية واختبارها", "/resources/Engineering/resource_82.pptx", "presentation"),
+      f("شرح البرمجة العامة", "/resources/Engineering/resource_83.pptx", "presentation"),
+      f("شرح تقنيات صيانة المركبات", "/resources/Engineering/resource_84.pptx", "presentation"),
     ],
     teacherGuide: [
-      f("دليل المعلم — الرياضيات لفني الهندسي", "https://docs.google.com/document/d/1t9HPTO2wxXsEMjgPuV-Y4knAcZguecRf/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — المواد الهندسية", "https://docs.google.com/document/d/1k_g9qdONjnJamD-PPU2hnjWnN8TPvSxO/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — إنشاء الدوائر الكهربائية والإلكترونية واختبارها", "https://docs.google.com/document/d/18ltL0rcuHqcY-5fbKTRQQrbljCt14P15/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — البرمجة العامة", "https://docs.google.com/document/d/100FfsUkeo2VGztWNDRED4Y2pLNWI5N6B/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — تقنيات صيانة المركبات", "https://docs.google.com/document/d/1TctKvueDMeQV__9YIfhNrrs_RQOcdtLh/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — الرياضيات لفني الهندسي", "/resources/Engineering/resource_85.docx", "doc"),
+      f("دليل المعلم — المواد الهندسية", "/resources/Engineering/resource_86.docx", "doc"),
+      f("دليل المعلم — إنشاء الدوائر الكهربائية والإلكترونية واختبارها", "/resources/Engineering/resource_87.docx", "doc"),
+      f("دليل المعلم — البرمجة العامة", "/resources/Engineering/resource_88.docx", "doc"),
+      f("دليل المعلم — تقنيات صيانة المركبات", "/resources/Engineering/resource_89.docx", "doc"),
     ],
     assignments: [
-      f("مهمة الرياضيات لفني الهندسي (أ)", "https://docs.google.com/document/d/1mUyV1oHi-lWDz5HDAJ87hT9OGTbpYpCk/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة المواد الهندسية (أ)", "https://docs.google.com/document/d/1JbjGZfXrSyJ8MB5Hxihvk3ZNAQNCMbgr/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة إنشاء الدوائر الكهربائية والإلكترونية واختبارها (أ + ب)", "https://docs.google.com/document/d/18HlpBzsc4zQpkg5AYfecOEPKy6s__cuS/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة البرمجة العامة (أ)", "https://docs.google.com/document/d/1PWqunnKHDKIENCs2lM5cAs1ghvYtjHg4/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة تقنيات صيانة المركبات (أ)", "https://docs.google.com/document/d/18ybffJaobSO4jfmv22DPG2MytMtWOdol/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة الرياضيات لفني الهندسي (أ)", "/resources/Engineering/resource_90.docx", "doc"),
+      f("مهمة المواد الهندسية (أ)", "/resources/Engineering/resource_91.docx", "doc"),
+      f("مهمة إنشاء الدوائر الكهربائية والإلكترونية واختبارها (أ + ب)", "/resources/Engineering/resource_92.docx", "doc"),
+      f("مهمة البرمجة العامة (أ)", "/resources/Engineering/resource_93.docx", "doc"),
+      f("مهمة تقنيات صيانة المركبات (أ)", "/resources/Engineering/resource_94.docx", "doc"),
     ],
   }),
   semester3: S({
@@ -102,35 +102,35 @@ const grade10: {
       f("جدول المواصفات — العلوم الكهربائية والميكانيكة الهندسية", G10_SPEC),
     ],
     books: [
-      f("كتاب الرسم الهندسي", "https://drive.google.com/file/d/1QXgi2fF8pcHSKJ561rSC_LCedgeHEfp-/view"),
-      f("كتاب تقنيات تحسين الإدارة", "https://drive.google.com/file/d/1o2n0R3htgfNFW7gXf2HX50esnYosAZaa/view"),
-      f("كتاب تقنيات التصنيع", "https://drive.google.com/file/d/1N7fzE_36yJhNKib8zMxuhgDRnTFph_PW/view"),
-      f("كتاب العلوم الكهربائية والميكانيكة الهندسية", "https://drive.google.com/file/d/1aEPyTIF-rpilxoC4GFdWfRtai3mYe8UR/view"),
-      f("كتاب تشغيل وصيانة الأنظمة والمكونات الكهربائية والإلكترونية", "https://drive.google.com/file/d/1T6Z5gPi93_CnwNPft3Q7SR_PnqjneaxZ/view"),
+      f("كتاب الرسم الهندسي", "/resources/Engineering/resource_95.pdf"),
+      f("كتاب تقنيات تحسين الإدارة", "/resources/Engineering/resource_96.pdf"),
+      f("كتاب تقنيات التصنيع", "/resources/Engineering/resource_97.pdf"),
+      f("كتاب العلوم الكهربائية والميكانيكة الهندسية", "/resources/Engineering/resource_98.pdf"),
+      f("كتاب تشغيل وصيانة الأنظمة والمكونات الكهربائية والإلكترونية", "/resources/Engineering/resource_99.pdf"),
     ],
     explanations: [
-      f("شرح الرسم الهندسي", "https://docs.google.com/presentation/d/1NqdzkSvqqOF8YYLCEuMkR4TNfjSg24MJ/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح اللحام", "https://docs.google.com/presentation/d/1IX7iQitlDX6QTW9J-VyMKNrNbg-WVNpe/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح تقنيات تحسين الإدارة", "https://docs.google.com/presentation/d/1DgyO3LOv9AnPxWNNt9ObOBLrkC4fW82r/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح تقنيات التصنيع", "https://docs.google.com/presentation/d/1XOgQg8RIqcNp8t4C-35IRvvUsbsPtt0O/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح العلوم الكهربائية والميكانيكة الهندسية", "https://docs.google.com/presentation/d/1NxakRWa-sefMeZo99yWhqh73dCVARGXq/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح تشغيل وصيانة الأنظمة والمكونات الكهربائية والإلكترونية", "https://docs.google.com/presentation/d/1PUrBdgTUboyHeYXE1U5-ScaCRvG2bQG9/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح الرسم الهندسي", "/resources/Engineering/resource_100.pptx", "presentation"),
+      f("شرح اللحام", "/resources/Engineering/resource_101.pptx", "presentation"),
+      f("شرح تقنيات تحسين الإدارة", "/resources/Engineering/resource_102.pptx", "presentation"),
+      f("شرح تقنيات التصنيع", "/resources/Engineering/resource_103.pptx", "presentation"),
+      f("شرح العلوم الكهربائية والميكانيكة الهندسية", "/resources/Engineering/resource_104.pptx", "presentation"),
+      f("شرح تشغيل وصيانة الأنظمة والمكونات الكهربائية والإلكترونية", "/resources/Engineering/resource_105.pptx", "presentation"),
     ],
     teacherGuide: [
-      f("دليل المعلم — الرسم الهندسي", "https://docs.google.com/document/d/1p8edcNIUtJF41KDety_VchNKPnhdtjlf/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — اللحام", "https://docs.google.com/document/d/1lAcc0kLNoawnXg3DkvX8WjYZgpvqkaqR/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — تقنيات تحسين الإدارة", "https://docs.google.com/document/d/1KjycNv6nNlDUZ0-653PwepMyb2qupwgl/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — تقنيات التصنيع", "https://docs.google.com/document/d/1xRIKfNoOmmvHjfitn6tFbI5nGCEobpD7/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — العلوم الكهربائية والميكانيكة الهندسية", "https://docs.google.com/document/d/1O4qzjya23PfcwwCBaW76rZFEbcNkVoZ0/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — تشغيل وصيانة الأنظمة والمكونات الكهربائية والإلكترونية", "https://docs.google.com/document/d/13WOqhyOKLYsKr6Qd-R908eBw_iQVevd2/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — الرسم الهندسي", "/resources/Engineering/resource_106.docx", "doc"),
+      f("دليل المعلم — اللحام", "/resources/Engineering/resource_107.docx", "doc"),
+      f("دليل المعلم — تقنيات تحسين الإدارة", "/resources/Engineering/resource_108.docx", "doc"),
+      f("دليل المعلم — تقنيات التصنيع", "/resources/Engineering/resource_109.docx", "doc"),
+      f("دليل المعلم — العلوم الكهربائية والميكانيكة الهندسية", "/resources/Engineering/resource_110.docx", "doc"),
+      f("دليل المعلم — تشغيل وصيانة الأنظمة والمكونات الكهربائية والإلكترونية", "/resources/Engineering/resource_111.docx", "doc"),
     ],
     assignments: [
-      f("مهمة الرسم الهندسي (أ)", "https://docs.google.com/document/d/1nSqiz54cgzB2LHSsC3OFERjY7M_n2YPg/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة اللحام (أ + ب)", "https://docs.google.com/document/d/1oEhfRmOaT2WNa9R9aaevD_R_LdawaMEA/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة تقنيات تحسين الإدارة (أ)", "https://docs.google.com/document/d/1j1p4S4q0uAf9McjdENs5sZzsghtwLh_i/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة تقنيات التصنيع (أ)", "https://docs.google.com/document/d/1Q06Ee1RV6a4dF5YQ4Xh3Y2ekDS-EdA4r/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة العلوم الكهربائية والميكانيكة الهندسية (أ)", "https://docs.google.com/document/d/1TG2R-H6xZKEDcXmi_A3O33ls-L28QHoG/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة تشغيل وصيانة الأنظمة والمكونات الكهربائية والإلكترونية (أ)", "https://docs.google.com/document/d/1FMkxXeWnQW_l0TUmuJZsh0p2K-IC99_Z/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة الرسم الهندسي (أ)", "/resources/Engineering/resource_112.docx", "doc"),
+      f("مهمة اللحام (أ + ب)", "/resources/Engineering/resource_113.docx", "doc"),
+      f("مهمة تقنيات تحسين الإدارة (أ)", "/resources/Engineering/resource_114.docx", "doc"),
+      f("مهمة تقنيات التصنيع (أ)", "/resources/Engineering/resource_115.docx", "doc"),
+      f("مهمة العلوم الكهربائية والميكانيكة الهندسية (أ)", "/resources/Engineering/resource_116.docx", "doc"),
+      f("مهمة تشغيل وصيانة الأنظمة والمكونات الكهربائية والإلكترونية (أ)", "/resources/Engineering/resource_117.docx", "doc"),
     ],
   }),
 };
@@ -142,20 +142,20 @@ const grade11 = {
       f("جدول المواصفات — المبادئ الكهربائية والإلكترونية", G11_SPEC),
     ],
     books: [
-      f("كتاب المبادئ الميكانيكية", "https://drive.google.com/file/d/1yPiDnK9IHkxaVG9lGR6Fo8v164ZW4O8K/view"),
-      f("كتاب المبادئ الكهربائية والإلكترونية", "https://drive.google.com/file/d/1CSeNGDRPzRCPER9QIdOK574JQCX-dlQG/view"),
+      f("كتاب المبادئ الميكانيكية", "/resources/Engineering/resource_118.pdf"),
+      f("كتاب المبادئ الكهربائية والإلكترونية", "/resources/Engineering/resource_119.pdf"),
     ],
     explanations: [
-      f("شرح المبادئ الميكانيكية", "https://docs.google.com/presentation/d/1CxDIMfNarJ5DqqJLJiBZiaYs-yMdhs4Q/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح المبادئ الكهربائية والإلكترونية", "https://docs.google.com/presentation/d/1gjDNOBgjlYfHoTgj07RlfDpFnVGsi8Hc/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح المبادئ الميكانيكية", "/resources/Engineering/resource_120.pptx", "presentation"),
+      f("شرح المبادئ الكهربائية والإلكترونية", "/resources/Engineering/resource_121.pptx", "presentation"),
     ],
     teacherGuide: [
-      f("دليل المعلم — المبادئ الميكانيكية", "https://docs.google.com/document/d/1dQZ1k1ha4hkczGWehYFd-2TVA_t4Ns8l/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — المبادئ الكهربائية والإلكترونية", "https://docs.google.com/document/d/1G_CrYWkrKLEY_iVnO7IYyy9l3DSJDUI9/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — المبادئ الميكانيكية", "/resources/Engineering/resource_122.docx", "doc"),
+      f("دليل المعلم — المبادئ الكهربائية والإلكترونية", "/resources/Engineering/resource_123.docx", "doc"),
     ],
     assignments: [
-      f("مهمة المبادئ الميكانيكية", "https://docs.google.com/document/d/18HHGTNcchOa_KxdCxRmPC6iDAMDHIXJ5/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة المبادئ الكهربائية والإلكترونية", "https://docs.google.com/document/d/1HnV9aiJ5Ls18FpUv9DOT7FXk9uBRyY9i/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة المبادئ الميكانيكية", "/resources/Engineering/resource_124.docx", "doc"),
+      f("مهمة المبادئ الكهربائية والإلكترونية", "/resources/Engineering/resource_125.docx", "doc"),
     ],
   }),
   semester2: S({
@@ -164,36 +164,36 @@ const grade11 = {
       f("جدول المواصفات — تقديم العمليات الهندسية بأمان كفريق", G11_SPEC),
     ],
     books: [
-      f("كتاب مبادئ التجارة والجودة التطبيقية بالهندسة", "https://drive.google.com/file/d/1ulu55FQZCyiI1hbXUQ4hT_oFSqP8HLdH/view"),
-      f("كتاب تقديم العمليات الهندسية بأمان كفريق", "https://drive.google.com/file/d/1kM1Ulr3PaT1PtrzcL00xV0WhuO9dgXoN/view"),
+      f("كتاب مبادئ التجارة والجودة التطبيقية بالهندسة", "/resources/Engineering/resource_126.pdf"),
+      f("كتاب تقديم العمليات الهندسية بأمان كفريق", "/resources/Engineering/resource_127.pdf"),
     ],
     explanations: [
-      f("شرح تقديم العمليات الهندسية بأمان كفريق", "https://docs.google.com/presentation/d/1EFq0dB73TdWM0jNg9ID_Zzp3NbGGfbdJ/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح مبادئ التجارة والجودة التطبيقية بالهندسة", "https://docs.google.com/presentation/d/1dLHljY2mrMc3HaIVdqFbVfnIELRj7ZEq/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح تقديم العمليات الهندسية بأمان كفريق", "/resources/Engineering/resource_128.pptx", "presentation"),
+      f("شرح مبادئ التجارة والجودة التطبيقية بالهندسة", "/resources/Engineering/resource_129.pptx", "presentation"),
     ],
     teacherGuide: [
-      f("دليل المعلم — تقديم العمليات الهندسية بأمان كفريق", "https://docs.google.com/document/d/1oL4czW84mF_CvLruqhnam3YDfYcVNARd/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — مبادئ التجارة والجودة التطبيقية بالهندسة", "https://docs.google.com/document/d/1jaw6Jii3ENwGCpw-CuBnXgmgiy5djurO/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — تقديم العمليات الهندسية بأمان كفريق", "/resources/Engineering/resource_130.docx", "doc"),
+      f("دليل المعلم — مبادئ التجارة والجودة التطبيقية بالهندسة", "/resources/Engineering/resource_131.docx", "doc"),
     ],
     assignments: [
-      f("مهمة تقديم العمليات الهندسية بأمان كفريق", "https://docs.google.com/document/d/1JvF_s6JIeAR4H1_R9-4KOjKObwJNG4-o/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة مبادئ التجارة والجودة التطبيقية بالهندسة", "https://docs.google.com/document/d/12pHQ8qn5BasGU-zFAF_v_ZVvAXeL5IhX/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة تقديم العمليات الهندسية بأمان كفريق", "/resources/Engineering/resource_132.docx", "doc"),
+      f("مهمة مبادئ التجارة والجودة التطبيقية بالهندسة", "/resources/Engineering/resource_133.docx", "doc"),
     ],
   }),
   semester3: S({
     specs: [f("جدول المواصفات — تصميم وتصنيع المنتجات في مجال الهندسة", G11_SPEC)],
-    books: [f("كتاب تصميم وتصنيع المنتجات في مجال الهندسة", "https://drive.google.com/file/d/1p4rfw2j8Gzscb8o4Lk9oKBDMqlrCqvWe/view")],
+    books: [f("كتاب تصميم وتصنيع المنتجات في مجال الهندسة", "/resources/Engineering/resource_134.pdf")],
     explanations: [
-      f("شرح تصميم وتصنيع المنتجات في مجال الهندسة", "https://docs.google.com/presentation/d/1MQx2RDUKS7CuTNv1SIGV7i8-l1qEzfMr/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح أنظمة التصنيع الحديثة", "https://docs.google.com/presentation/d/14TKy1fWX7k4bJ44rwxk5Mw-jfFCHbPnr/edit?usp=drive_link&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح تصميم وتصنيع المنتجات في مجال الهندسة", "/resources/Engineering/resource_135.pptx", "presentation"),
+      f("شرح أنظمة التصنيع الحديثة", "/resources/Engineering/resource_136.pptx", "presentation"),
     ],
     teacherGuide: [
-      f("دليل المعلم — تصميم وتصنيع المنتجات في مجال الهندسة", "https://docs.google.com/document/d/1judikx3Kh-GyWHOyUgbnVbmYtZ2WZ2Y7/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — أنظمة التصنيع الحديثة", "https://docs.google.com/document/d/1KoWE7YaVttLYrZvhv4y5GylbkIzbLFkJ/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — تصميم وتصنيع المنتجات في مجال الهندسة", "/resources/Engineering/resource_137.docx", "doc"),
+      f("دليل المعلم — أنظمة التصنيع الحديثة", "/resources/Engineering/resource_138.docx", "doc"),
     ],
     assignments: [
-      f("مهمة تصميم وتصنيع المنتجات في مجال الهندسة", "https://docs.google.com/document/d/1jfWqh2BntcizeAg5L99k8cXkmQgfNWZ4/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة أنظمة التصنيع الحديثة", "https://docs.google.com/document/d/1JbeLnOHxJ0xZmVRJ15Wt6ms1aTmlI_xu/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة تصميم وتصنيع المنتجات في مجال الهندسة", "/resources/Engineering/resource_139.docx", "doc"),
+      f("مهمة أنظمة التصنيع الحديثة", "/resources/Engineering/resource_140.docx", "doc"),
     ],
   }),
 };
@@ -213,22 +213,22 @@ const grade12Electrical = {
       f("(تخصص الكهرباء) جدول المواصفات — الدوائر الإلكترونية التناظرية", G12_EL_SPEC),
     ],
     books: [
-      f("(تخصص الكهرباء) كتاب محركات المركبات الكهربائية والهجينة", "https://drive.google.com/file/d/1T6CJjFdmyR2nPH5SSOzlQyQhVitp5oQ4/view"),
-      f("(تخصص الكهرباء) كتاب الأجهزة والدوائر الإلكترونية", "https://drive.google.com/file/d/13R4MsKjAk7OYUhC-RovqNs6sCx56lUya/view"),
-      f("(تخصص الكهرباء) كتاب أنظمة الدفع في المركبات الكهربائية", "https://drive.google.com/file/d/1HQB1c5SvMFfG_ym5XKAbf1onnn_98lz3/view"),
-      f("(تخصص الكهرباء) كتاب الدوائر الإلكترونية التناظرية", "https://drive.google.com/file/d/1jXUzuRbVT8FlZkznUb-s0-4Uq8a4pWhR/view"),
+      f("(تخصص الكهرباء) كتاب محركات المركبات الكهربائية والهجينة", "/resources/Engineering/resource_141.pdf"),
+      f("(تخصص الكهرباء) كتاب الأجهزة والدوائر الإلكترونية", "/resources/Engineering/resource_142.pdf"),
+      f("(تخصص الكهرباء) كتاب أنظمة الدفع في المركبات الكهربائية", "/resources/Engineering/resource_143.pdf"),
+      f("(تخصص الكهرباء) كتاب الدوائر الإلكترونية التناظرية", "/resources/Engineering/resource_144.pdf"),
     ],
     explanations: [
-      f("شرح + سلايدات — الأجهزة والدوائر الإلكترونية (كهرباء)", "https://docs.google.com/presentation/d/177o2tlt0K69_0ZrCWmPG72PbNsVbi1IM/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح + سلايدات — الدوائر الإلكترونية التناظرية (كهرباء)", "https://docs.google.com/presentation/d/1b73su8qzBmWlG1kf5FdIMRguIPzqBfvg/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح + سلايدات — الأجهزة والدوائر الإلكترونية (كهرباء)", "/resources/Engineering/resource_145.pptx", "presentation"),
+      f("شرح + سلايدات — الدوائر الإلكترونية التناظرية (كهرباء)", "/resources/Engineering/resource_146.pptx", "presentation"),
     ],
     assignments: [
-      f("مهمة الأجهزة والدوائر الإلكترونية (كهرباء)", "https://docs.google.com/document/d/12IcFbHyFWT0BgZEzTvakkQWQ__Fcbfem/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة الدوائر الإلكترونية التناظرية (كهرباء)", "https://docs.google.com/document/d/1aD49i52HHyDQ8hpO9--_Jt6pqzhk5_l-/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة الأجهزة والدوائر الإلكترونية (كهرباء)", "/resources/Engineering/resource_147.docx", "doc"),
+      f("مهمة الدوائر الإلكترونية التناظرية (كهرباء)", "/resources/Engineering/resource_148.docx", "doc"),
     ],
     teacherGuide: [
-      f("دليل المعلم — الأجهزة والدوائر الإلكترونية (كهرباء)", "https://docs.google.com/document/d/1nyR-C3vuunc5fjR4_A4-DvggUP_Qok3A/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — الدوائر الإلكترونية التناظرية (كهرباء)", "https://docs.google.com/document/d/1_dvPJuTKOFh9sC2SO18Qmn6nJWwVCpTq/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — الأجهزة والدوائر الإلكترونية (كهرباء)", "/resources/Engineering/resource_149.docx", "doc"),
+      f("دليل المعلم — الدوائر الإلكترونية التناظرية (كهرباء)", "/resources/Engineering/resource_150.docx", "doc"),
     ],
   }),
   semester2: S({
@@ -239,19 +239,19 @@ const grade12Electrical = {
       f("(تخصص الكهرباء) جدول المواصفات — الأنظمة الإلكترونية التناظرية والرقمية", G12_EL_SPEC),
     ],
     books: [
-      f("(تخصص الكهرباء) كتاب التنقل الكهربي", "https://drive.google.com/file/d/1GiQQ8DtEpcJg02BjcFIrimkjxYJU7kPf/view"),
-      f("(تخصص الكهرباء) كتاب القياس والاختبار الإلكتروني للدوائر", "https://drive.google.com/file/d/118aQm5c_dwC-614aPrpuj-fVd5e9T7lU/view"),
-      f("(تخصص الكهرباء) كتاب تشغيل أنظمة الإشعال الإلكترونية في المركبات واختبارها", "https://drive.google.com/file/d/1kor1zJvGk1QXV_OkxdEgGZ-srBeS5zuH/view"),
-      f("(تخصص الكهرباء) كتاب الأنظمة الإلكترونية التناظرية والرقمية", "https://drive.google.com/file/d/1j9Kv63qqtR76RfddxewByANrZbaq87FS/view"),
+      f("(تخصص الكهرباء) كتاب التنقل الكهربي", "/resources/Engineering/resource_151.pdf"),
+      f("(تخصص الكهرباء) كتاب القياس والاختبار الإلكتروني للدوائر", "/resources/Engineering/resource_152.pdf"),
+      f("(تخصص الكهرباء) كتاب تشغيل أنظمة الإشعال الإلكترونية في المركبات واختبارها", "/resources/Engineering/resource_153.pdf"),
+      f("(تخصص الكهرباء) كتاب الأنظمة الإلكترونية التناظرية والرقمية", "/resources/Engineering/resource_154.pdf"),
     ],
     explanations: [
-      f("شرح + سلايدات — القياس والاختبار الإلكتروني للدوائر (كهرباء)", "https://docs.google.com/presentation/d/1nocPQcI1GDw97vVQB9QpO4_f9p-fULTf/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح + سلايدات — القياس والاختبار الإلكتروني للدوائر (كهرباء)", "/resources/Engineering/resource_155.pptx", "presentation"),
     ],
     assignments: [
-      f("مهمة القياس والاختبار الإلكتروني للدوائر (كهرباء)", "https://docs.google.com/document/d/1NZWcLA9cwztgvYEnwIUCCuHF9ulmvADv/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة القياس والاختبار الإلكتروني للدوائر (كهرباء)", "/resources/Engineering/resource_156.docx", "doc"),
     ],
     teacherGuide: [
-      f("دليل المعلم — القياس والاختبار الإلكتروني للدوائر (كهرباء)", "https://docs.google.com/document/d/1XOybsNznyHyOJbIy660j21QumIO55P7-/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — القياس والاختبار الإلكتروني للدوائر (كهرباء)", "/resources/Engineering/resource_157.docx", "doc"),
     ],
   }),
   semester3: S({
@@ -262,22 +262,22 @@ const grade12Electrical = {
       f("(تخصص الكهرباء) جدول المواصفات — الروبوتات الصناعية", G12_EL_SPEC),
     ],
     books: [
-      f("(تخصص الكهرباء) كتاب أنظمة التعليق والتوجيه والكبح في المركبات الخفيفة", "https://drive.google.com/file/d/1GCVYH609lXukYZvh4e8TcQ4-ITrA2Ot9/view"),
-      f("(تخصص الكهرباء) كتاب المتحكمات المنطقية القابلة للبرمجة", "https://drive.google.com/file/d/16K-OxxWq3uxN9ldJCAJKzHzJEH7E9-dd/view"),
-      f("(تخصص الكهرباء) كتاب تشغيل أنظمة نقل الحركة في المركبات الخفيفة وصيانتها", "https://drive.google.com/file/d/12YQiwM56IYxS5216TJdFrPBug0dZ88K3/view"),
-      f("(تخصص الكهرباء) كتاب الروبوتات الصناعية", "https://drive.google.com/file/d/1ovxU_gXMPYAnfswisxCA5Exvoj55scoG/view"),
+      f("(تخصص الكهرباء) كتاب أنظمة التعليق والتوجيه والكبح في المركبات الخفيفة", "/resources/Engineering/resource_158.pdf"),
+      f("(تخصص الكهرباء) كتاب المتحكمات المنطقية القابلة للبرمجة", "/resources/Engineering/resource_159.pdf"),
+      f("(تخصص الكهرباء) كتاب تشغيل أنظمة نقل الحركة في المركبات الخفيفة وصيانتها", "/resources/Engineering/resource_160.pdf"),
+      f("(تخصص الكهرباء) كتاب الروبوتات الصناعية", "/resources/Engineering/resource_161.pdf"),
     ],
     explanations: [
-      f("شرح + سلايدات — المتحكمات المنطقية القابلة للبرمجة (كهرباء)", "https://docs.google.com/presentation/d/1mgYuys75762_goB10dlE0e1aD30r_sQW/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح + سلايدات — الروبوتات الصناعية (كهرباء)", "https://docs.google.com/presentation/d/12C1YsJTwiUTMyQIc2lWzvvGoXQchhIoY/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح + سلايدات — المتحكمات المنطقية القابلة للبرمجة (كهرباء)", "/resources/Engineering/resource_162.pptx", "presentation"),
+      f("شرح + سلايدات — الروبوتات الصناعية (كهرباء)", "/resources/Engineering/resource_163.pptx", "presentation"),
     ],
     assignments: [
-      f("مهمة المتحكمات المنطقية القابلة للبرمجة (كهرباء)", "https://docs.google.com/document/d/11U_JFuX7Q6d59aD37Bgok-RgwzuNd1F6/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة الروبوتات الصناعية (كهرباء)", "https://docs.google.com/document/d/1Mu4SJmlTh1v_J66_T-IxTlq3tRZH_Hud/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة المتحكمات المنطقية القابلة للبرمجة (كهرباء)", "/resources/Engineering/resource_164.docx", "doc"),
+      f("مهمة الروبوتات الصناعية (كهرباء)", "/resources/Engineering/resource_165.docx", "doc"),
     ],
     teacherGuide: [
-      f("دليل المعلم — المتحكمات المنطقية القابلة للبرمجة (كهرباء)", "https://docs.google.com/document/d/1GWnWmWyIbrfWVTsLNSbkuMLdkfAfC-jp/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — الروبوتات الصناعية (كهرباء)", "https://docs.google.com/document/d/1iRgGFrZFIjbpOD5gaL3Ic4yZlQbCDwlW/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — المتحكمات المنطقية القابلة للبرمجة (كهرباء)", "/resources/Engineering/resource_166.docx", "doc"),
+      f("دليل المعلم — الروبوتات الصناعية (كهرباء)", "/resources/Engineering/resource_167.docx", "doc"),
     ],
   }),
 };
@@ -289,20 +289,20 @@ const grade12Mechanics = {
       f("(تخصص الميكانيك) جدول المواصفات — صيانة الأنظمة الميكانيكية", G12_ME_SPEC),
     ],
     books: [
-      f("(تخصص الميكانيك) كتاب تقنية اللحام", "https://drive.google.com/file/d/1seLNp8l4IBHMjmPbEW19wkbDuWcixRwS/view?usp=drive_link"),
-      f("(تخصص الميكانيك) كتاب صيانة الأنظمة الميكانيكية", "https://drive.google.com/file/d/1lDLfub0Hg79bM388PixnhaBs557-YfCq/view"),
+      f("(تخصص الميكانيك) كتاب تقنية اللحام", "/resources/Engineering/resource_168.pdf"),
+      f("(تخصص الميكانيك) كتاب صيانة الأنظمة الميكانيكية", "/resources/Engineering/resource_169.pdf"),
     ],
     explanations: [
-      f("شرح + سلايدات — تقنية اللحام (ميكانيك)", "https://docs.google.com/presentation/d/1NXxgG3Lj-NluNsmaljNsBPCwvdvgxY51/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح + سلايدات — صيانة الأنظمة الميكانيكية (ميكانيك)", "https://docs.google.com/presentation/d/1egjYvyBuPNebuD7tNWEpI-RDjKYbNppu/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح + سلايدات — تقنية اللحام (ميكانيك)", "/resources/Engineering/resource_170.pptx", "presentation"),
+      f("شرح + سلايدات — صيانة الأنظمة الميكانيكية (ميكانيك)", "/resources/Engineering/resource_171.pptx", "presentation"),
     ],
     assignments: [
-      f("مهمة تقنية اللحام (ميكانيك)", "https://docs.google.com/document/d/1MqJOUNwu0NBcAZAD8v03SfKx7EBy6-Qx/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة صيانة الأنظمة الميكانيكية (ميكانيك)", "https://docs.google.com/document/d/1R1wt5s0ZyNzlSmrA_uAAcMjo_r-CziOP/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة تقنية اللحام (ميكانيك)", "/resources/Engineering/resource_172.docx", "doc"),
+      f("مهمة صيانة الأنظمة الميكانيكية (ميكانيك)", "/resources/Engineering/resource_173.docx", "doc"),
     ],
     teacherGuide: [
-      f("دليل المعلم — تقنية اللحام (ميكانيك)", "https://docs.google.com/document/d/1YDObIvLGiOoQVgqpZzKpomFkWZqWY613/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — صيانة الأنظمة الميكانيكية (ميكانيك)", "https://docs.google.com/document/d/1FFtt_Wx0CMAh7FhxF7Ru5yQU5WQ5dQy2/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — تقنية اللحام (ميكانيك)", "/resources/Engineering/resource_174.docx", "doc"),
+      f("دليل المعلم — صيانة الأنظمة الميكانيكية (ميكانيك)", "/resources/Engineering/resource_175.docx", "doc"),
     ],
   }),
   semester2: S({
@@ -311,20 +311,20 @@ const grade12Mechanics = {
       f("(تخصص الميكانيك) جدول المواصفات — السلوك الميكانيكي للمواد غير المعدنية", G12_ME_SPEC),
     ],
     books: [
-      f("(تخصص الميكانيك) كتاب السلوك الميكانيكي للمواد المعدنية", "https://drive.google.com/file/d/1guD0rpTjACflKYO38WRxtyjMPQ39YMck/view"),
-      f("(تخصص الميكانيك) كتاب السلوك الميكانيكي للمواد غير المعدنية", "https://drive.google.com/file/d/1dgnkUpoZwgJqKi-vKY_1S5kHMFlgl05d/view"),
+      f("(تخصص الميكانيك) كتاب السلوك الميكانيكي للمواد المعدنية", "/resources/Engineering/resource_176.pdf"),
+      f("(تخصص الميكانيك) كتاب السلوك الميكانيكي للمواد غير المعدنية", "/resources/Engineering/resource_177.pdf"),
     ],
     explanations: [
-      f("شرح + سلايدات — السلوك الميكانيكي للمواد المعدنية (ميكانيك)", "https://docs.google.com/presentation/d/1TvbdjBmrb5mQGMUdmCj6wihJn16ZM7kZ/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح + سلايدات — السلوك الميكانيكي للمواد غير المعدنية (ميكانيك)", "https://docs.google.com/presentation/d/1ahUeboLpN58r6xkJCTF3H1xtGii_SFtV/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح + سلايدات — السلوك الميكانيكي للمواد المعدنية (ميكانيك)", "/resources/Engineering/resource_178.pptx", "presentation"),
+      f("شرح + سلايدات — السلوك الميكانيكي للمواد غير المعدنية (ميكانيك)", "/resources/Engineering/resource_179.pptx", "presentation"),
     ],
     assignments: [
-      f("مهمة السلوك الميكانيكي للمواد المعدنية (ميكانيك)", "https://docs.google.com/document/d/1I2Y5qg87iIt9y4v2cny4LeQqWqfsYLjc/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة السلوك الميكانيكي للمواد غير المعدنية (ميكانيك)", "https://docs.google.com/document/d/1ZPQQda5Ct3sBXpfaKp3dqs45VRHNeLZQ/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة السلوك الميكانيكي للمواد المعدنية (ميكانيك)", "/resources/Engineering/resource_180.docx", "doc"),
+      f("مهمة السلوك الميكانيكي للمواد غير المعدنية (ميكانيك)", "/resources/Engineering/resource_181.docx", "doc"),
     ],
     teacherGuide: [
-      f("دليل المعلم — السلوك الميكانيكي للمواد المعدنية (ميكانيك)", "https://docs.google.com/document/d/1CahLsASmQHLjLphOdOrl99zXtMi6l191/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — السلوك الميكانيكي للمواد غير المعدنية (ميكانيك)", "https://docs.google.com/document/d/1cOFzssUbJYOWqQej22-Azz6zmmEBVje4/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — السلوك الميكانيكي للمواد المعدنية (ميكانيك)", "/resources/Engineering/resource_182.docx", "doc"),
+      f("دليل المعلم — السلوك الميكانيكي للمواد غير المعدنية (ميكانيك)", "/resources/Engineering/resource_183.docx", "doc"),
     ],
   }),
   semester3: S({
@@ -333,19 +333,19 @@ const grade12Mechanics = {
       f("(تخصص الميكانيك) جدول المواصفات — عمليات التصنيع والتجميع", G12_ME_SPEC),
     ],
     books: [
-      f("(تخصص الميكانيك) كتاب عمليات المعالجة الآلية الثانوية المستخدمة في التصنيع", "https://drive.google.com/file/d/13JOT_hoTvDjWpP_7jqyWBB9Qnxoi6OeM/view"),
-      f("(تخصص الميكانيك) كتاب عمليات التصنيع والتجميع", "https://drive.google.com/file/d/1fS2BwPXvWAGv5oXWBxxgN4mQmnzIFUkT/view"),
-      f("(تخصص الميكانيك) كتاب عمليات المعالجة الآلية الثانوية (نسخة إضافية)", "https://drive.google.com/file/d/13AUmcVp-QmUirDPbfRf2VBIudo9sTX6F/view"),
+      f("(تخصص الميكانيك) كتاب عمليات المعالجة الآلية الثانوية المستخدمة في التصنيع", "/resources/Engineering/resource_184.pdf"),
+      f("(تخصص الميكانيك) كتاب عمليات التصنيع والتجميع", "/resources/Engineering/resource_185.pdf"),
+      f("(تخصص الميكانيك) كتاب عمليات المعالجة الآلية الثانوية (نسخة إضافية)", "/resources/Engineering/resource_186.pdf"),
     ],
     explanations: [
-      f("شرح + سلايدات — عمليات المعالجة الآلية الثانوية (ميكانيك)", "https://docs.google.com/presentation/d/17JrcjmkhAHzzyky6Hds7FHCeGjFrVOLP/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح + سلايدات — المعالجة التصنيعية باستخدام التحكم العددي (ميكانيك)", "https://docs.google.com/presentation/d/1xtoHzz7HVFUc1CjFg0spOVYy0RWqQMQU/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح + سلايدات — عمليات المعالجة الآلية الثانوية (ميكانيك)", "/resources/Engineering/resource_187.pptx", "presentation"),
+      f("شرح + سلايدات — المعالجة التصنيعية باستخدام التحكم العددي (ميكانيك)", "/resources/Engineering/resource_188.pptx", "presentation"),
     ],
     assignments: [
-      f("مهمة عمليات المعالجة الآلية الثانوية المستخدمة في التصنيع (ميكانيك)", "https://docs.google.com/document/d/1za2xzxIn6rGoRDIIIkFR6hQg-w6SUW0Q/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة عمليات المعالجة الآلية الثانوية المستخدمة في التصنيع (ميكانيك)", "/resources/Engineering/resource_189.docx", "doc"),
     ],
     teacherGuide: [
-      f("دليل المعلم — عمليات المعالجة الآلية الثانوية المستخدمة في التصنيع (ميكانيك)", "https://docs.google.com/document/d/1ZLqX2U5Fmb9Hznj9rHlewLElcg8VFIxS/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — عمليات المعالجة الآلية الثانوية المستخدمة في التصنيع (ميكانيك)", "/resources/Engineering/resource_190.docx", "doc"),
     ],
   }),
 };
@@ -357,20 +357,20 @@ const grade12Vehicle = {
       f("(تخصص تكنولوجيا المركبات) جدول المواصفات — أنظمة الدفع في المركبات الكهربائية", G12_VT_SPEC),
     ],
     books: [
-      f("(تخصص تكنولوجيا المركبات) كتاب محركات المركبات الكهربائية والهجينة", "https://drive.google.com/file/d/1T6CJjFdmyR2nPH5SSOzlQyQhVitp5oQ4/view"),
-      f("(تخصص تكنولوجيا المركبات) كتاب أنظمة الدفع في المركبات الكهربائية", "https://drive.google.com/file/d/1HQB1c5SvMFfG_ym5XKAbf1onnn_98lz3/view"),
+      f("(تخصص تكنولوجيا المركبات) كتاب محركات المركبات الكهربائية والهجينة", "/resources/Engineering/resource_141.pdf"),
+      f("(تخصص تكنولوجيا المركبات) كتاب أنظمة الدفع في المركبات الكهربائية", "/resources/Engineering/resource_143.pdf"),
     ],
     explanations: [
-      f("شرح + سلايدات — محركات المركبات الكهربائية والهجينة (تكنولوجيا المركبات)", "https://docs.google.com/presentation/d/1n_Eq2dxqJf9IW37qpOst1WJDr8NI6seN/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح + سلايدات — أنظمة الدفع في المركبات الكهربائية (تكنولوجيا المركبات)", "https://docs.google.com/presentation/d/1bIk8vqJAhUkT6buLTcKVxsGP2rzyqs7B/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح + سلايدات — محركات المركبات الكهربائية والهجينة (تكنولوجيا المركبات)", "/resources/Engineering/resource_193.pptx", "presentation"),
+      f("شرح + سلايدات — أنظمة الدفع في المركبات الكهربائية (تكنولوجيا المركبات)", "/resources/Engineering/resource_194.pptx", "presentation"),
     ],
     assignments: [
-      f("مهمة محركات المركبات الكهربائية والهجينة (تكنولوجيا المركبات)", "https://docs.google.com/document/d/1Hy7nerQd_brWyRTBX3kNCeKGsMjfkCv0/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة أنظمة الدفع في المركبات الكهربائية (تكنولوجيا المركبات)", "https://docs.google.com/document/d/1KenmErA1J7_mTYHTHyMW8hqDQS2McgqN/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة محركات المركبات الكهربائية والهجينة (تكنولوجيا المركبات)", "/resources/Engineering/resource_195.docx", "doc"),
+      f("مهمة أنظمة الدفع في المركبات الكهربائية (تكنولوجيا المركبات)", "/resources/Engineering/resource_196.docx", "doc"),
     ],
     teacherGuide: [
-      f("دليل المعلم — محركات المركبات الكهربائية والهجينة (تكنولوجيا المركبات)", "https://docs.google.com/document/d/1yLqpEX9sjIMiBU1OE-FgRILnOw5Upj6k/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — أنظمة الدفع في المركبات الكهربائية (تكنولوجيا المركبات)", "https://docs.google.com/document/d/175I68sFMJLhSkJqH3DYGXJ_1UZtRYixq/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — محركات المركبات الكهربائية والهجينة (تكنولوجيا المركبات)", "/resources/Engineering/resource_197.docx", "doc"),
+      f("دليل المعلم — أنظمة الدفع في المركبات الكهربائية (تكنولوجيا المركبات)", "/resources/Engineering/resource_198.docx", "doc"),
     ],
   }),
   semester2: S({
@@ -379,20 +379,20 @@ const grade12Vehicle = {
       f("(تخصص تكنولوجيا المركبات) جدول المواصفات — تشغيل أنظمة الإشعال الإلكترونية في المركبات واختبارها", G12_VT_SPEC),
     ],
     books: [
-      f("(تخصص تكنولوجيا المركبات) كتاب التنقل الكهربي", "https://drive.google.com/file/d/1GiQQ8DtEpcJg02BjcFIrimkjxYJU7kPf/view"),
-      f("(تخصص تكنولوجيا المركبات) كتاب تشغيل أنظمة الإشعال الإلكترونية في المركبات واختبارها", "https://drive.google.com/file/d/1kor1zJvGk1QXV_OkxdEgGZ-srBeS5zuH/view"),
+      f("(تخصص تكنولوجيا المركبات) كتاب التنقل الكهربي", "/resources/Engineering/resource_151.pdf"),
+      f("(تخصص تكنولوجيا المركبات) كتاب تشغيل أنظمة الإشعال الإلكترونية في المركبات واختبارها", "/resources/Engineering/resource_153.pdf"),
     ],
     explanations: [
-      f("شرح + سلايدات — التنقل الكهربي (تكنولوجيا المركبات)", "https://docs.google.com/presentation/d/1De6vpyGSa0PvpIqoPDePOVzG6pqV740P/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح + سلايدات — تشغيل أنظمة الإشعال الإلكترونية (تكنولوجيا المركبات)", "https://docs.google.com/presentation/d/18Hw_y3mxKBm0xCDWOWmyM29sC1cLLjJR/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح + سلايدات — التنقل الكهربي (تكنولوجيا المركبات)", "/resources/Engineering/resource_201.pptx", "presentation"),
+      f("شرح + سلايدات — تشغيل أنظمة الإشعال الإلكترونية (تكنولوجيا المركبات)", "/resources/Engineering/resource_202.pptx", "presentation"),
     ],
     assignments: [
-      f("مهمة التنقل الكهربي (تكنولوجيا المركبات)", "https://docs.google.com/document/d/1Rlfe96SA7dlTVXDqIHEnizgnRcgPbmDx/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة تشغيل أنظمة الإشعال الإلكترونية في المركبات واختبارها (تكنولوجيا المركبات)", "https://docs.google.com/document/d/1nybR9DgqBxCrNzVAHUJcOTT7BM0JXqg-/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة التنقل الكهربي (تكنولوجيا المركبات)", "/resources/Engineering/resource_203.docx", "doc"),
+      f("مهمة تشغيل أنظمة الإشعال الإلكترونية في المركبات واختبارها (تكنولوجيا المركبات)", "/resources/Engineering/resource_204.docx", "doc"),
     ],
     teacherGuide: [
-      f("دليل المعلم — التنقل الكهربي (تكنولوجيا المركبات)", "https://docs.google.com/document/d/175I68sFMJLhSkJqH3DYGXJ_1UZtRYixq/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — تشغيل أنظمة الإشعال الإلكترونية في المركبات واختبارها (تكنولوجيا المركبات)", "https://docs.google.com/document/d/14HRpAxw_r49UY7mbfikUwN3LL7hNG0lV/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — التنقل الكهربي (تكنولوجيا المركبات)", "/resources/Engineering/resource_198.docx", "doc"),
+      f("دليل المعلم — تشغيل أنظمة الإشعال الإلكترونية في المركبات واختبارها (تكنولوجيا المركبات)", "/resources/Engineering/resource_206.docx", "doc"),
     ],
   }),
   semester3: S({
@@ -401,20 +401,20 @@ const grade12Vehicle = {
       f("(تخصص تكنولوجيا المركبات) جدول المواصفات — تشغيل أنظمة نقل الحركة في المركبات الخفيفة وصيانتها", G12_VT_SPEC),
     ],
     books: [
-      f("(تخصص تكنولوجيا المركبات) كتاب أنظمة التعليق والتوجيه والكبح في المركبات الخفيفة", "https://drive.google.com/file/d/1GCVYH609lXukYZvh4e8TcQ4-ITrA2Ot9/view"),
-      f("(تخصص تكنولوجيا المركبات) كتاب تشغيل أنظمة نقل الحركة في المركبات الخفيفة وصيانتها", "https://drive.google.com/file/d/12YQiwM56IYxS5216TJdFrPBug0dZ88K3/view"),
+      f("(تخصص تكنولوجيا المركبات) كتاب أنظمة التعليق والتوجيه والكبح في المركبات الخفيفة", "/resources/Engineering/resource_158.pdf"),
+      f("(تخصص تكنولوجيا المركبات) كتاب تشغيل أنظمة نقل الحركة في المركبات الخفيفة وصيانتها", "/resources/Engineering/resource_160.pdf"),
     ],
     explanations: [
-      f("شرح + سلايدات — أنظمة التعليق والتوجيه والكبح (تكنولوجيا المركبات)", "https://docs.google.com/presentation/d/1UottC78VmzhOGUFe2-T8t2X_vx-RPUld/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
-      f("شرح + سلايدات — تشغيل أنظمة نقل الحركة وصيانتها (تكنولوجيا المركبات)", "https://docs.google.com/presentation/d/1sYBsEbt8gQK9DHybiQXMdvSY4UEe2dhF/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "presentation"),
+      f("شرح + سلايدات — أنظمة التعليق والتوجيه والكبح (تكنولوجيا المركبات)", "/resources/Engineering/resource_209.pptx", "presentation"),
+      f("شرح + سلايدات — تشغيل أنظمة نقل الحركة وصيانتها (تكنولوجيا المركبات)", "/resources/Engineering/resource_210.pptx", "presentation"),
     ],
     assignments: [
-      f("مهمة أنظمة التعليق والتوجيه والكبح في المركبات الخفيفة (تكنولوجيا المركبات)", "https://docs.google.com/document/d/1La35ace_0kYOThxWea7Yz5G40BJnstwz/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("مهمة تشغيل أنظمة نقل الحركة في المركبات الخفيفة وصيانتها (تكنولوجيا المركبات)", "https://docs.google.com/document/d/1ThSzFCwP8Gwkn-mbg21FGYrFkFnwN1gY/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("مهمة أنظمة التعليق والتوجيه والكبح في المركبات الخفيفة (تكنولوجيا المركبات)", "/resources/Engineering/resource_211.docx", "doc"),
+      f("مهمة تشغيل أنظمة نقل الحركة في المركبات الخفيفة وصيانتها (تكنولوجيا المركبات)", "/resources/Engineering/resource_212.docx", "doc"),
     ],
     teacherGuide: [
-      f("دليل المعلم — أنظمة التعليق والتوجيه والكبح في المركبات الخفيفة (تكنولوجيا المركبات)", "https://docs.google.com/document/d/1SLptzxEQ1JJRxFwY8eAPT67vdVFE-udA/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
-      f("دليل المعلم — تشغيل أنظمة نقل الحركة في المركبات الخفيفة وصيانتها (تكنولوجيا المركبات)", "https://docs.google.com/document/d/1QtcDDYET1GRO0EyfTa67wQpZdXkGEnyJ/edit?usp=sharing&ouid=103331752942697650285&rtpof=true&sd=true", "doc"),
+      f("دليل المعلم — أنظمة التعليق والتوجيه والكبح في المركبات الخفيفة (تكنولوجيا المركبات)", "/resources/Engineering/resource_213.docx", "doc"),
+      f("دليل المعلم — تشغيل أنظمة نقل الحركة في المركبات الخفيفة وصيانتها (تكنولوجيا المركبات)", "/resources/Engineering/resource_214.docx", "doc"),
     ],
   }),
 };

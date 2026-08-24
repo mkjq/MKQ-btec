@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { motion, useMotionValue, useSpring, useMotionTemplate } from "framer-motion";
+import { motion, useMotionValue, useSpring, useTransform, useMotionTemplate } from "framer-motion";
 
 export default function Pattern() {
   const mouseX = useMotionValue(-1000);
@@ -8,6 +8,9 @@ export default function Pattern() {
   // Spring physics for "gravity" feel
   const springX = useSpring(mouseX, { stiffness: 40, damping: 15, mass: 0.8 });
   const springY = useSpring(mouseY, { stiffness: 40, damping: 15, mass: 0.8 });
+
+  const orbX = useTransform(springX, (val) => val - 300);
+  const orbY = useTransform(springY, (val) => val - 300);
 
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -22,8 +25,6 @@ export default function Pattern() {
     window.addEventListener("mousemove", handleMouseMove);
     return () => window.removeEventListener("mousemove", handleMouseMove);
   }, [mouseX, mouseY]);
-
-  const maskImage = useMotionTemplate`radial-gradient(450px circle at ${springX}px ${springY}px, black, transparent)`;
 
   return (
     <div
@@ -83,20 +84,22 @@ export default function Pattern() {
         style={{
           backgroundImage: "radial-gradient(circle at center, #d8a660 1.5px, transparent 1.5px)",
           backgroundSize: "24px 24px",
-          WebkitMaskImage: maskImage,
-          maskImage: maskImage,
-        }}
+          "--x": useMotionTemplate`${springX}px`,
+          "--y": useMotionTemplate`${springY}px`,
+          WebkitMaskImage: "radial-gradient(450px circle at var(--x, -1000px) var(--y, -1000px), black, transparent)",
+          maskImage: "radial-gradient(450px circle at var(--x, -1000px) var(--y, -1000px), black, transparent)",
+        } as any}
       />
 
       {/* 4. Glowing Orb Tracking the Mouse (Gravity Effect) */}
       <motion.div
-        className="absolute rounded-full blur-[100px] opacity-40 pointer-events-none z-0"
+        className="absolute top-0 left-0 rounded-full blur-[100px] opacity-40 pointer-events-none z-0"
         style={{
           width: 600,
           height: 600,
           background: "radial-gradient(circle, rgba(15, 118, 110, 0.8) 0%, rgba(216, 166, 96, 0.3) 50%, transparent 100%)",
-          x: useMotionTemplate`calc(${springX}px - 300px)`,
-          y: useMotionTemplate`calc(${springY}px - 300px)`,
+          x: orbX,
+          y: orbY,
         }}
       />
     </div>

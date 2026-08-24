@@ -12,8 +12,14 @@ const Pattern = () => {
 const StyledWrapper = styled.div`
   position: absolute;
   inset: 0;
-  width: 100%;
-  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
   overflow: hidden;
 
   /*
@@ -24,8 +30,13 @@ const StyledWrapper = styled.div`
     content: "";
     position: absolute;
     inset: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
     z-index: 1;
     backdrop-filter: hue-rotate(90deg);
+    -webkit-mask: linear-gradient(45deg, #0000, #000);
     mask: linear-gradient(45deg, #0000, #000);
     animation: rotaty 5s linear infinite;
     transform-origin: center;
@@ -40,8 +51,15 @@ const StyledWrapper = styled.div`
       hsl(0 0 4%) 2px
     );
     background-size: 8px 8px;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  }
+
+  @keyframes rotaty {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
   }
 
   @keyframes thingy {

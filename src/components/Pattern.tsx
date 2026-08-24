@@ -1,134 +1,62 @@
-import React from 'react';
-import styled from 'styled-components';
+import React, { useEffect, useRef, useState } from "react";
 
-const Pattern = () => {
+export default function Pattern() {
+  const [mousePosition, setMousePosition] = useState({ x: -1000, y: -1000 });
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      if (containerRef.current) {
+        const rect = containerRef.current.getBoundingClientRect();
+        setMousePosition({
+          x: e.clientX - rect.left,
+          y: e.clientY - rect.top,
+        });
+      }
+    };
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
+  }, []);
+
   return (
-    <StyledWrapper>
-      <div className="container" />
-    </StyledWrapper>
+    <div
+      ref={containerRef}
+      className="absolute inset-0 w-full h-full overflow-hidden bg-[#020617]"
+    >
+      {/* 1. Subtle Base Dots (Faint) */}
+      <div
+        className="absolute inset-0 w-full h-full opacity-30"
+        style={{
+          backgroundImage: "radial-gradient(circle at center, rgba(148, 163, 184, 0.4) 1px, transparent 1px)",
+          backgroundSize: "24px 24px",
+        }}
+      />
+
+      {/* 2. Highlighted Dots (Revealed by Mouse) */}
+      <div
+        className="absolute inset-0 w-full h-full"
+        style={{
+          backgroundImage: "radial-gradient(circle at center, rgba(216, 166, 96, 0.8) 1.5px, transparent 1.5px)",
+          backgroundSize: "24px 24px",
+          WebkitMaskImage: `radial-gradient(400px circle at ${mousePosition.x}px ${mousePosition.y}px, black, transparent)`,
+          maskImage: `radial-gradient(400px circle at ${mousePosition.x}px ${mousePosition.y}px, black, transparent)`,
+        }}
+      />
+
+      {/* 3. Glowing Orb Tracking the Mouse */}
+      <div
+        className="absolute w-[800px] h-[800px] rounded-full blur-[120px] opacity-20 pointer-events-none"
+        style={{
+          background: "radial-gradient(circle, rgba(15, 118, 110, 0.8) 0%, rgba(216, 166, 96, 0.3) 50%, transparent 100%)",
+          left: mousePosition.x - 400,
+          top: mousePosition.y - 400,
+          transition: "left 0.1s ease-out, top 0.1s ease-out",
+        }}
+      />
+
+      {/* 4. Ambient Static Glows (for depth) */}
+      <div className="absolute -top-[20%] -right-[10%] w-[60%] h-[60%] rounded-full bg-teal-900/10 blur-[120px] pointer-events-none" />
+      <div className="absolute -bottom-[20%] -left-[10%] w-[60%] h-[60%] rounded-full bg-amber-900/10 blur-[120px] pointer-events-none" />
+    </div>
   );
 }
-
-const StyledWrapper = styled.div`
-  position: absolute;
-  inset: 0;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100vw;
-  height: 100vh;
-  left: 0;
-  top: 0;
-  overflow: hidden;
-
-  /*
-  More comprehensive version at shenanigans.shoghisimon.ca/collection/css-blur-blob-bg/
-   */
-
-  .container::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-    z-index: 1;
-    backdrop-filter: hue-rotate(90deg);
-    -webkit-mask: linear-gradient(45deg, #0000, #000);
-    mask: linear-gradient(45deg, #0000, #000);
-    animation: rotaty 5s linear infinite;
-    transform-origin: center;
-  }
-
-  .container {
-    position: absolute;
-    background-image: radial-gradient(
-      circle at 50% 50%,
-      #0000 0,
-      #0000 2px,
-      hsl(0 0 4%) 2px
-    );
-    background-size: 8px 8px;
-    width: 100vw;
-  height: 100vh;
-  left: 0;
-  top: 0;
-  }
-
-  @keyframes rotaty {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-
-  @keyframes thingy {
-    0% {
-      filter: var(--f) hue-rotate(0deg);
-    }
-    to {
-      filter: var(--f) hue-rotate(1turn);
-    }
-  }
-
-  .container::before {
-    content: "";
-    position: absolute;
-    inset: -8em;
-    z-index: -1;
-    --f: blur(7em) brightness(5);
-    --c: #09f;
-    animation:
-      blobs-1e28bd3d 150s linear infinite,
-      thingy 5s linear infinite;
-    background-color: #000;
-    background-image: radial-gradient(
-        ellipse 66px 50px at 50% 50%,
-        #0f0 0%,
-        transparent 100%
-      ),
-      radial-gradient(ellipse 77px 60px at 50% 50%, #0f0 0%, transparent 100%),
-      radial-gradient(ellipse 78px 100px at 50% 50%, #0f0 0%, transparent 100%),
-      radial-gradient(ellipse 73px 96px at 50% 50%, #0f0 0%, transparent 100%),
-      radial-gradient(ellipse 76px 77px at 50% 50%, #0f0 0%, transparent 100%),
-      radial-gradient(ellipse 66px 51px at 50% 50%, #0f0 0%, transparent 100%),
-      radial-gradient(ellipse 90px 57px at 50% 50%, #0f0 0%, transparent 100%),
-      radial-gradient(ellipse 89px 93px at 50% 50%, #0f0 0%, transparent 100%);
-    background-size:
-      726px 576px,
-      1242px 454px,
-      876px 1160px,
-      691px 873px,
-      914px 550px,
-      1159px 340px,
-      1017px 831px,
-      313px 977px;
-  }
-
-  @keyframes blobs-1e28bd3d {
-    0% {
-      background-position:
-        271px 478px,
-        62px 291px,
-        67px 861px,
-        553px 413px,
-        36px 392px,
-        1077px 226px,
-        400px 799px,
-        7px 264px;
-    }
-
-    to {
-      background-position:
-        -14975px -2978px,
-        31112px 11187px,
-        -20081px 8981px,
-        11609px -3952px,
-        -12760px 12492px,
-        -9354px 2946px,
-        9553px 21574px,
-        946px 9057px;
-    }
-  }`;
-
-export default Pattern;

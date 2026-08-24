@@ -4,14 +4,14 @@ import VideoTourSection from "@/components/VideoTourSection";
 import MainSectionsGrid from "@/components/MainSectionsGrid";
 import Footer from "@/components/Footer";
 import ScrollProgressBar from "@/components/ScrollProgressBar";
-import AnimatedPatternBackground from "@/components/AnimatedPatternBackground";
+import Pattern from "@/components/Pattern";
 import { motion } from "framer-motion";
 
 const HomePage = () => {
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
       <div className="fixed inset-0 pointer-events-none z-0">
-        <AnimatedPatternBackground className="absolute inset-0" />
+        <Pattern />
       </div>
 
       <Navbar />

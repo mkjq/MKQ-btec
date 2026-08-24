@@ -4,14 +4,14 @@ import VideoTourSection from "@/components/VideoTourSection";
 import MainSectionsGrid from "@/components/MainSectionsGrid";
 import Footer from "@/components/Footer";
 import ScrollProgressBar from "@/components/ScrollProgressBar";
-import Pattern from "@/components/Pattern";
+import LiquidCrystalBackground from "@/components/ui/liquid-crystal-shader";
 import { motion } from "framer-motion";
 
 const HomePage = () => {
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
       <div className="fixed inset-0 pointer-events-none z-0">
-        <Pattern />
+        <LiquidCrystalBackground speed={0.5} radii={[0.2, 0.15, 0.22]} smoothK={[0.2, 0.25]} />
       </div>
 
       <Navbar />

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { motion, useMotionValue, useSpring, useTransform, useMotionTemplate } from "framer-motion";
+import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 
 export default function Pattern() {
   const mouseX = useMotionValue(-1000);
@@ -13,6 +13,7 @@ export default function Pattern() {
   const orbY = useTransform(springY, (val) => val - 300);
 
   const containerRef = useRef<HTMLDivElement>(null);
+  const maskRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -25,6 +26,24 @@ export default function Pattern() {
     window.addEventListener("mousemove", handleMouseMove);
     return () => window.removeEventListener("mousemove", handleMouseMove);
   }, [mouseX, mouseY]);
+
+  useEffect(() => {
+    // Manually apply spring physics to the mask for 100% cross-browser reliability
+    const unsubX = springX.on("change", (v) => {
+      if (maskRef.current) {
+        maskRef.current.style.setProperty("--x", `${v}px`);
+      }
+    });
+    const unsubY = springY.on("change", (v) => {
+      if (maskRef.current) {
+        maskRef.current.style.setProperty("--y", `${v}px`);
+      }
+    });
+    return () => {
+      unsubX();
+      unsubY();
+    };
+  }, [springX, springY]);
 
   return (
     <div
@@ -63,6 +82,10 @@ export default function Pattern() {
             opacity: 0.5;
             z-index: 0;
           }
+          .spotlight-mask {
+            -webkit-mask-image: radial-gradient(450px circle at var(--x, -1000px) var(--y, -1000px), black, transparent);
+            mask-image: radial-gradient(450px circle at var(--x, -1000px) var(--y, -1000px), black, transparent);
+          }
         `}
       </style>
 
@@ -79,16 +102,13 @@ export default function Pattern() {
       />
 
       {/* 3. Highlighted Dots (Revealed by Mouse) */}
-      <motion.div
-        className="absolute inset-0 w-full h-full z-10"
+      <div
+        ref={maskRef}
+        className="spotlight-mask absolute inset-0 w-full h-full z-10"
         style={{
           backgroundImage: "radial-gradient(circle at center, #d8a660 1.5px, transparent 1.5px)",
           backgroundSize: "24px 24px",
-          "--x": useMotionTemplate`${springX}px`,
-          "--y": useMotionTemplate`${springY}px`,
-          WebkitMaskImage: "radial-gradient(450px circle at var(--x, -1000px) var(--y, -1000px), black, transparent)",
-          maskImage: "radial-gradient(450px circle at var(--x, -1000px) var(--y, -1000px), black, transparent)",
-        } as any}
+        }}
       />
 
       {/* 4. Glowing Orb Tracking the Mouse (Gravity Effect) */}

@@ -73,7 +73,7 @@ const App = () => {
             <TooltipProvider>
               <Toaster />
               <Sonner />
-              <BrowserRouter basename="/MKQ-btec/">
+              <BrowserRouter>
                 <AuthProvider>
                   <MotivationProvider>
                     <Suspense fallback={null}>
